@@ -1,0 +1,50 @@
+{
+    "id": "car_trajectory",
+    "name": "Car with trailer",
+    "image": "car_trajectory/card_image.png",
+    "details": "A project for the Robotics Movement Planning course at ENS. The goal was to find trajectories for a
+                car with a trailer that avoid collision and where wheels do not drift.",
+    "page": [
+                {"type": "text", "title": "Car with trailer trajectories"},
+                {"type": "text", "title": "Directives", "text": "
+                    This project was conducted by me and two friends in the context of our Robotics Movement
+                    Planing course at the ENS. The directives were to implement computations and visualisations
+                    for the trajectory planing of a car with a trailer from a state to another. Those trajectories
+                    shall avoid collisions and wheel drifting. The methods used were mostly inspired from a research
+                    paper (Motion Planning and Control for Hilare Pulling a Trailer)."},
+                {"type": "text", "title": "Model", "text": "
+                    The model used was a bit more simple than a car. It is a robot that with two motorized wheels
+                    and some other wheels or balls that can rotate freely. The trailer is attached to the center
+                    of the axis joining the motorized wheels and has two wheels itself. Such a robot can have
+                    any angle with its trailer and can follow curves of arbitrary curvature (it can even turn on
+                    itself)."},
+                {"type": "image", "src": "car_trajectory/card_image.png"},
+                {"type": "text", "title": "A trajectory with drifting", "text": "
+                    The first step to go from a state to another is to find a trajectory where wheels can drift
+                    (it would be a movement that avoid collisions but cannot physically happen). Considering a
+                    sequence of states we can get a trajectory by linearly interpolating positions and rotations."},
+                {"type": "image", "src": "car_trajectory/linear_easy.gif;car_trajectory/linear_hard.gif",
+                    "caption": "Linear interpolation"},
+                {"type": "text", "text": "
+                    To find those trajectories, we can use two methods. The first method samples random configurations
+                    (trailer positions (x, y) rotation (θ) and car rotation (φ)) and create a visibility graph.
+                    The second method approximates the obstacles by a grid (in 4 dimensions) and computes a
+                    potential that guides towards the goal. We can then use gradient descend and random walks to get
+                    out of local minima."},
+                {"type": "image", "src": "car_trajectory/sampling.gif;car_trajectory/gradient_descend.gif",
+                    "caption": "Find trajectory"},
+                {"type": "image", "src": "car_trajectory/skeleton.png;car_trajectory/potential.png",
+                    "caption": "Computed potential"},
+                {"type": "text", "title": "A trajectory without drifting", "text": "
+                    Each linearly interpolated section can be made admissible on its own. To do so, we do as
+                    described in the paper: we combine canonical curves (curves onto which φ is constant) and
+                    try cusp points and dichotomy until there is a path without collision. More details can be
+                    found in the paper."},
+                {"type": "image", "src": "car_trajectory/admissible_easy.gif;car_trajectory/admissible_hard.gif",
+                    "caption": "Admissible trajectories"},
+                {"type": "text", "title": "Optimized trajectory", "text": "
+                    The admissible trajectory can be overly-complicated. Therefore, we do a final pass were we try
+                    to shortcut through the trajectory."},
+                {"type": "image", "src": "car_trajectory/optimized.gif", "caption": "Optimized trajectory"}
+            ]
+}

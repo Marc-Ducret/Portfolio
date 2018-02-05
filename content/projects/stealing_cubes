@@ -1,0 +1,35 @@
+{
+    "id": "stealing_cubes",
+    "name": "Stealing Cubes",
+    "image": "stealing_cubes/card_image.png",
+    "details": "My entry for the Ludum Dare 40 game jam. The theme was 'The more you have, the worse it is'.
+                In Stealing Cubes, you are inside a sphere and must gather as much cubes as you can. While
+                doing so, the glowing spheres get more and more angry and try to hit you.",
+    "page": [
+                {"type": "text", "title": "Stealing Cubes"},
+                {"type": "text", "title": "Ludum Dare 40", "text": "
+                    This is my entry for the Ludum Dare 40 game jam. The theme was 'The more you have, the worse it is'.
+                    I developed this game alongside 3 friends."},
+                {"type": "text", "title": "Spherical world", "text": "
+                    The environment is the inside of a sphere. You can walk everywhere inside it and gravity pulls away
+                    from the center of the sphere. This was a bit of a challenge technically to have the player
+                    facing the right way but after some thinking we ended up with simple and elegant solutions.
+                    Basically, at each time frame, we apply on the player the smallest rotation such that the player
+                    becomes aligned with gravity."},
+                {"type": "image", "src": "stealing_cubes/sphere.png", "caption": "Looking up"},
+                {"type": "image", "src": "stealing_cubes/spherical_movement.gif", "caption": "Movement"},
+                {"type": "text", "title": "Goal", "text": "
+                    The goal is to collect cubes. The more cubes are collect the angrier the glowing spheres get.
+                    If the player gets hit by a red sphere, he dies and must start again."},
+                {"type": "image", "src": "stealing_cubes/collect.gif", "caption": "Collecting"},
+                {"type": "text", "text": "
+                    To avoid the spheres, the player can run away and knock them out by throwing some of the cubes
+                    he collected."},
+                {"type": "image", "src": "stealing_cubes/knock_out.gif", "caption": "Knocking out a sphere"},
+                {"type": "image", "src": "stealing_cubes/death.png", "caption": "Dying"},
+                {"type": "text", "title": "Results", "text": "
+                    The <a href='https://ldjam.com/events/ludum-dare/40/stealing-cubes'>Ludum Dare entry</a> and
+                    <a href='http://slimevoid.net/tmp/LD40/Windows.zip'>final release</a> are available."},
+                {"type": "image", "src": "stealing_cubes/results.png", "caption": "Final Ludum Dare rankings"}
+            ]
+}
