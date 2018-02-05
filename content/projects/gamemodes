@@ -1,0 +1,42 @@
+{
+    "id": "gamemodes",
+    "name": "Minecraft Gamemodes",
+    "image": "minecraft/gamemodes/card_image.png",
+    "details": "Under the Slimevoid organization that I co-funded with a friend, we tried to design mods that
+                aimed at redefining Minecraft by creating gamemodes to be played within it.",
+    "page": [
+                {"type": "text", "title": "Infection"},
+                {"type": "image", "src": "minecraft/gamemodes/infection.png"},
+                {"type": "text", "title": "Concept", "text": "
+                    In the Infection gamemode players have to defend their crystal from the overwhelming infection
+                    that slowly conquests lands and creatures. To do so, they can collect diamonds and buy gear
+                    at the crystal."},
+                {"type": "image", "src": "minecraft/gamemodes/meteor.gif",
+                                "caption": "Meteor starting the infection (opening cutscene)"},
+                {"type": "image", "src": "minecraft/gamemodes/collect.gif",
+                                "caption": "Diamond collecting"},
+                {"type": "image", "src": "minecraft/gamemodes/fight.gif",
+                                "caption": "Fighting the infection"},
+                {"type": "text", "title": "Bombermine"},
+                {"type": "image", "src": "minecraft/gamemodes/bombermine.png"},
+                {"type": "text", "title": "Concept", "text": "
+                    Bombermine is when Minecraft and the classic Bomberman game meets. Players can place bombs
+                    that explode in lines while destroying obstacles and players on their way. Powerups can
+                    be acquired while doing so."},
+                {"type": "image", "src": "minecraft/gamemodes/map.PNG",
+                                "caption": "A Bombermine map"},
+                {"type": "image", "src": "minecraft/gamemodes/explode.gif",
+                                "caption": "Powerup that make explosions not stop at first obstacle"},
+                {"type": "image", "src": "minecraft/gamemodes/detection.gif",
+                                "caption": "Detection bomb"},
+                {"type": "text", "title": "Space Mod"},
+                {"type": "text", "title": "Concept", "text": "
+                    Space Mod is an ambitious attempt to have cube planets where you could live on any face
+                    and travel to other planets. Due to technical difficulties regarding the implementation of
+                    Minecraft, the project was dropped."},
+                {"type": "image", "src": "minecraft/gamemodes/gravity.gif",
+                    "caption": "Gravity change"},
+                {"type": "image", "src": "minecraft/gamemodes/upsidedown.gif",
+                    "caption": "Building upside-down"}
+            ]
+}

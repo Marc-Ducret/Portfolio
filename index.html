@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/css/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <nav id="nav" style="z-index: 100" class="lighten-2">
+            <div class="nav-wrapper">
+                <div class="container">
+                    <ul id="nav-mobile" class="right">
+                        <li><a href="?content=text_page&page=about_me">About me</a></li>
+                        <li><a href="?content=text_page&page=resume">Resume</a></li>
+                        <li><a href="?content=projects">Projects</a></li>
+                    </ul>
+                    <a href="?content=text_page&page=home" class="brand-logo left">Marc Ducret</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="row" style="margin-top: 100px">
+            <div class="col s0 m0 l1 xl2"></div>
+            <div class="col s12 m12 l10 xl8">
+                <div class="row" id="content">
+                </div>
+            </div>
+            <div class="col m0 l3"></div>
+        </div>
+    </body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
+
+    <script>
+        let elem = document.querySelector('#nav');
+        M.Pushpin.init(elem, {});
+    </script>
+    <script src="content.js"></script>
+
+</html>

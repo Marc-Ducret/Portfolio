@@ -1,0 +1,48 @@
+{
+    "id": "probot",
+    "name": "ProBot",
+    "image": "probot/card_image.PNG",
+    "details": "An unfinished game about designing robots, programming them and having them fight with
+                other players' robots.",
+    "page": [
+                {"type": "text", "title": "ProBot"},
+                {"type": "text", "title": "First 3D prototype", "text": "
+                    This story begins in 2011 when a friend and I had this idea of a robot fighting game
+                    where you would build and program the robot. <br/>
+                    We started working on the first 3D prototype (no pictures here). However we quickly
+                    were overwhelmed with the synchronized networking of physics bodies."},
+                {"type": "text", "title": "2D prototype", "text": "
+                    Years later, I got back on the project alone. In the meantime, I learned about
+                    deterministic lockstep and here was my solution for networked multiplayer. For the sake
+                    of simplicity, I started with a 2D prototype. <br/>
+                    The code is available on <a href='https://github.com/VengeurK/Probot2DPrototype'>GitHub</a>."},
+                {"type": "image", "src": "probot/2Dmenu.png"},
+                {"type": "text", "text": "
+                    There is a functional editor with assembly of a few simple shapes and components. The CPU can
+                    be programmed using JavaScript."},
+                {"type": "image", "src": "probot/2Deditor.png", "caption": "Robot editor"},
+                {"type": "text", "text": "
+                    I implemented this deterministic lockstep technique and managed to get playable multiplayer
+                    over the internet. Robots can be split in two with lasers and the two parts will function (or not)
+                    independently."},
+                {"type": "image", "src": "probot/2Dmulti.png", "caption": "Networked multiplayer on a single machine"},
+                {"type": "image", "src": "probot/2Dlaser.png", "caption": "Laser!"},
+                {"type": "text", "text": "
+                    However there wasn't really a good separation between engine stuff and the game itself and
+                    two dimensions weren't enough to make the game interesting and enjoyable."},
+                {"type": "text", "title": "3D engine", "text": "
+                    Therefore I started working on a new 3D prototype. I properly laid down the foundations of
+                    a simple 3D engine based on OpenGL. This engine aims at displaying colored low poly models
+                    with automatically highlighted edges.<br/>
+                    The code is available on GitHub
+                    (<a href='https://github.com/VengeurK/SVEngine'>engine</a> |
+                     <a href='https://github.com/VengeurK/Probot3DPrototype'>prototype</a>)."},
+                {"type": "image", "src": "probot/3Dmenu.png"},
+                {"type": "image", "src": "probot/3Dengine.png"},
+                {"type": "text", "text": "
+                    Moreover this engine provides a solid and modular implementation of the deterministic
+                    lockstep technique. It was successful at implementing a simple multiplayer pong."},
+                {"type": "text", "title": "Remaining work", "text": "
+                    Implementing the game itself with this new engine is work in progress!"}
+            ]
+}
