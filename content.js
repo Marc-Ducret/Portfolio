@@ -58,12 +58,30 @@ function generate_text_page_block(content) {
                 src = src.trim();
                 let img = document.createElement('img');
                 let container = document.createElement('div');
+                let preloader = document.createElement('div');
+                preloader.setAttribute('class', 'preloader-wrapper big active');
+                preloader.innerHTML =
+                    '<div class="spinner-layer spinner-blue-only">\n' +
+                    '    <div class="circle-clipper left">\n' +
+                    '        <div class="circle"></div>\n' +
+                    '    </div><div class="gap-patch">\n' +
+                    '        <div class="circle"></div>\n' +
+                    '    </div><div class="circle-clipper right">\n' +
+                    '        <div class="circle"></div>\n' +
+                    '    </div>\n' +
+                    '</div>';
                 img.setAttribute('src', 'content/images/' + src);
+                img.style.display = 'none';
+                img.onload = function(ev) {
+                    container.removeChild(preloader);
+                    img.style.display = 'block';
+                };
                 container.setAttribute('class', 'col');
                 container.style.width = width;
                 img.setAttribute('class', 'responsive-img materialboxed');
                 img.style.width = '100%';
                 container.appendChild(img);
+                container.appendChild(preloader);
                 row.appendChild(container);
             }
             div.appendChild(row);

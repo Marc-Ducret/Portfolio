@@ -1,0 +1,35 @@
+{
+    "id": "cpu",
+    "name": "CPU Design",
+    "image": "cpu/card_image.png",
+    "details": "A project for the Digital System course at ENS. The goal was to design a simple CPU using logic gates,
+                compile it to a netlist and simulate it.",
+    "page": [
+                {"type": "text", "title": "CPU Design"},
+                {"type": "text", "title": "Context", "text": "
+                    This project was conducted by me and three friends in the context of our Digital System course.
+                    The goal was to design a simple CPU with logic gates in a somewhat high-level language, compile
+                    it in a netlist then program a netlist simulator and run the CPU with some programs."},
+                {"type": "text", "title": "Designing the CPU", "text": "
+                    When designing the CPU, a lot of decisions had to be made. Mainly, we had to settle on an
+                    instruction set and the size and quantity of registers."},
+                {"type": "image", "src": "cpu/adder.png; cpu/alu.png",
+                    "caption": "Some CPU circuits in high-level language"},
+                {"type": "text", "text": "
+                    From the design of the CPU results the definition of a machine/assembly language."},
+                {"type": "image", "src": "cpu/compile.png", "caption": "Compiling of a program to our assembly"},
+                {"type": "text", "title": "Simulation", "text": "
+                    To simulate a netlist, we wrote an OCaml program that parses the netlist and outputs some C code
+                    that does the simulation."},
+                {"type": "image", "src": "cpu/compiled_netlist.png", "caption": "Some resulting C code"},
+                {"type": "text", "title": "Running programs", "text": "
+                    The CPU runs which ever assembly program is written on its ROM. Now, writing programs in binary
+                    is tedious so we wrote a text assembly compiler and also a higher level language 'Tong'.
+                    We wrote most programs in Tong and compiled them in binary with a compiler written in Java."},
+                {"type": "image", "src": "cpu/tong.png; cpu/compile.png", "caption": "Pong Tong code and compiling"},
+                {"type": "text", "title": "Pong example", "text": "
+                    For example we were able to make a pong program. The interface is a Java program that provides
+                    a screen and user inputs to the simulator."},
+                {"type": "image", "src": "cpu/pong_play.png; cpu/pong_lose.png", "caption": "Pong game program"}
+            ]
+}
