@@ -1,4 +1,4 @@
-const COLOR_SCHEME = 'light-green';
+const COLOR_SCHEME = 'blue';
 
 function generate_project_card(info) {
     let elem = document.createElement('div');
@@ -71,14 +71,14 @@ function generate_text_page_block(content) {
                     '    </div>\n' +
                     '</div>';
                 img.setAttribute('src', 'content/images/' + src);
-                img.style.display = 'none';
+                img.style.display = 'block';
                 img.onload = function(ev) {
                     container.removeChild(preloader);
                     img.style.display = 'block';
                 };
                 container.setAttribute('class', 'col');
                 container.style.width = width;
-                img.setAttribute('class', 'responsive-img materialboxed');
+                img.setAttribute('class', 'materialboxed');
                 img.style.width = '100%';
                 container.appendChild(img);
                 container.appendChild(preloader);
