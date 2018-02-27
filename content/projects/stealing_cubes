@@ -12,14 +12,14 @@
                     I developed this game alongside 3 friends."},
                 {"type": "text", "title": "Spherical world", "text": "
                     The environment is the inside of a sphere. You can walk everywhere inside it and gravity pulls away
-                    from the center of the sphere. This was a bit of a challenge technically to have the player
+                    from the center of the sphere. This was a bit of a technical challenge to have the player
                     facing the right way but after some thinking we ended up with simple and elegant solutions.
                     Basically, at each time frame, we apply on the player the smallest rotation such that the player
                     becomes aligned with gravity."},
                 {"type": "image", "src": "stealing_cubes/sphere.png", "caption": "Looking up"},
                 {"type": "image", "src": "stealing_cubes/spherical_movement.gif", "caption": "Movement"},
                 {"type": "text", "title": "Goal", "text": "
-                    The goal is to collect cubes. The more cubes are collect the angrier the glowing spheres get.
+                    The goal is to collect cubes. The more cubes are collected the angrier the glowing spheres get.
                     If the player gets hit by a red sphere, he dies and must start again."},
                 {"type": "image", "src": "stealing_cubes/collect.gif", "caption": "Collecting"},
                 {"type": "text", "text": "

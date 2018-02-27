@@ -29,7 +29,7 @@
                     at his base."},
                 {"type": "text", "title": "Implementation", "text": "
                     While trying to make games using only OpenGL and no engine was enriching it also had me realize
-                    how helpful such an engine can be. This project my first attempt to use Unity. The current
+                    how helpful such an engine can be. This project is my first attempt to use Unity. The current
                     version is a prototype that aims at learning Unity and refining the concept."},
                 {"type": "image", "src": "original_fps/character.png"},
                 {"type": "text", "title": "Features", "text": "

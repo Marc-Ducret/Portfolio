@@ -27,7 +27,7 @@
                     "caption": "Linear interpolation"},
                 {"type": "text", "text": "
                     To find those trajectories, we can use two methods. The first method samples random configurations
-                    (trailer positions (x, y) rotation (θ) and car rotation (φ)) and create a visibility graph.
+                    (trailer positions (x, y) rotation (θ) and car rotation (φ)) and creates a visibility graph.
                     The second method approximates the obstacles by a grid (in 4 dimensions) and computes a
                     potential that guides towards the goal. We can then use gradient descend and random walks to get
                     out of local minima."},

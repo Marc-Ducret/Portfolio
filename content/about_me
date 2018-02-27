@@ -5,7 +5,7 @@
         and CSS. I wasn't really able to achieve anything and the lack of goal had me give up and play around
         with video editing and modeling software instead."},
     {"type": "text", "title": "The Minecraft Experience", "text": "
-        Two years latter, I got involved in a Minecraft server (minecraft-fr.net). This server had this ambition
+        Two years latter, I got involved in a Minecraft server (minecraft-fr.net). This server had the ambition
         of being strictly Role Play. For that matter we wanted to have some currency item that could be exchanged.
         I learned Java to do just that and worked through the decompiled and obfuscated sources of Minecraft.
         At this point in time, there was no tool to restore the names in the sources and to my knowledge, there
@@ -22,15 +22,15 @@
         We co-founded <a href='http://slimevoid.net'>SlimeVoid</a>, an unofficial organization about creating
         original Minecraft mods. Compared to the minecraft-fr.net experience, the success here was on a much bigger
         scale as we accumulated a few million downloads. However I missed the more personal relation that we had
-        with the players of the server. Some of SlimeVoid's projects are displayed on the <a href='?content=projects'>
+        with the players of the server. Some of ours SlimeVoid projects are displayed on the <a href='?content=projects'>
         Projects</a> page."},
     {"type": "text", "title": "Game Development", "text": "
-        At some point, I was rather annoyed by the limitations of modding. The logical followup was to consider game
-        development. Since then, I worked on many mostly unfinished game projects, alone or with few collaborators.
+        At some point, I got rather annoyed by the limitations of modding. The logical followup was to consider game
+        development. Since then, I worked on many, mostly unfinished, game projects, alone or with few collaborators.
         I started using Java and OpenGL but I came to realize how helpful an existing engine can be. Therefore I am now
-        concentrating my efforts on Unity which I'm starting to love more and more."},
+        focusing my efforts on Unity which I'm starting to love more and more."},
     {"type": "text", "title": "Games I played", "text": "
-        Here some games that played and felt like they impacted me. Age Of Empires II, Counter Strike: Source,
+        Here some games that I played and felt like they impacted me. Age Of Empires II, Counter Strike: Source,
         World of Warcraft, Garry's Mod, Minecraft, Startcraft II, Dota 2, Rust."},
     {"type": "text", "title": "Contact", "text": "
         I can be contacted at: <a href='mailto:marc.ducret@ens.fr'>marc.ducret@ens.fr</a>."}

@@ -10,7 +10,7 @@
                     This story begins in 2011 when a friend and I had this idea of a robot fighting game
                     where you would build and program the robot. <br/>
                     We started working on the first 3D prototype (no pictures here). However we quickly
-                    were overwhelmed with the synchronized networking of physics bodies."},
+                    were overwhelmed with the synchronized networking of physic bodies."},
                 {"type": "text", "title": "2D prototype", "text": "
                     Years later, I got back on the project alone. In the meantime, I learned about
                     deterministic lockstep and here was my solution for networked multiplayer. For the sake
