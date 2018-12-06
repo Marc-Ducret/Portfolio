@@ -1,4 +1,4 @@
 [
-    {"type": "image", "src": "resume/cv.png"},
-    {"type": "text", "text": "<a href='content/documents/cv.pdf'>Download PDF</a>"}
+    {"type": "image", "src": "resume/resume.png"},
+    {"type": "text", "text": "<a href='content/documents/resume.pdf'>Download PDF</a>"}
 ]
