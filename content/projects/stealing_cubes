@@ -2,13 +2,12 @@
     "id": "stealing_cubes",
     "name": "Stealing Cubes",
     "image": "stealing_cubes/card_image.png",
-    "details": "My entry for the Ludum Dare 40 game jam. The theme was 'The more you have, the worse it is'.
-                In Stealing Cubes, you are inside a sphere and must gather as much cubes as you can. While
+    "details": " In Stealing Cubes, you are inside a sphere and must gather as much cubes as you can. While
                 doing so, the glowing spheres get more and more angry and try to hit you.",
     "page": [
                 {"type": "text", "title": "Stealing Cubes"},
                 {"type": "text", "title": "Ludum Dare 40", "text": "
-                    This is my entry for the Ludum Dare 40 game jam. The theme was 'The more you have, the worse it is'.
+                    This is my entry for the Ludum Dare 40 game jam. The theme was \"The more you have, the worse it is\".
                     I developed this game alongside 3 friends."},
                 {"type": "text", "title": "Spherical world", "text": "
                     The environment is the inside of a sphere. You can walk everywhere inside it and gravity pulls away

@@ -2,13 +2,13 @@
     "id": "faithful_village",
     "name": "A Faithful Village",
     "image": "faithful_village/card_image.png",
-    "details": "My entry for the Ludum Dare 43 game jam. The theme was 'Sacrifices must be made'.
-                In Stealing Cubes, you are inside a sphere and must gather as much cubes as you can. While
-                doing so, the glowing spheres get more and more angry and try to hit you.",
+    "details": "In Faithful Village, You are a god, and like all gods, You crave faith. You turned Your all-seeing
+                gaze to this peaceful village whose inhabitants are a bit stupid, yet You feel they can accomplish
+                great things given the right guidance.",
     "page": [
                 {"type": "text", "title": "A Faithful Village"},
                 {"type": "text", "title": "Ludum Dare 43", "text": "
-                    This is my entry for the Ludum Dare 40 game jam. The theme was 'Sacrifices must be made'.
+                    This is my entry for the Ludum Dare 40 game jam. The theme was \"Sacrifices must be made\".
                     I developed this game alongside 3 friends.
                 "},
                 {"type": "text", "title": "Pitch", "text": "

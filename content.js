@@ -6,7 +6,7 @@ function generate_project_card(info) {
     elem.innerHTML =
         '<div class="card sticky-action hoverable">\n' +
         '    <div class="card-image waves-effect waves-block waves-light">\n' +
-        '        <img class="activator" src="content/images/' + info.image + '">\n' +
+        '        <img class="activator" src="content/images/' + info.image + '" alt="">\n' +
         '    </div>\n' +
         '    <div class="card-content">\n' +
         '        <span class="card-title activator grey-text text-darken-4">'
@@ -35,8 +35,8 @@ function generate_text_page_block(content) {
                 let title = document.createElement(content.text ? 'h3' : 'h1');
                 title.innerHTML = content.title;
                 title.setAttribute('class', content.text ?
-                    COLOR_SCHEME + '-text text-darken-4' :
-                    COLOR_SCHEME + '-text text-darken-4 center');
+                    COLOR_SCHEME + '-text' :
+                    COLOR_SCHEME + '-text center');
                 div.appendChild(title);
             }
             if (content.text) {
@@ -78,8 +78,13 @@ function generate_text_page_block(content) {
                 };
                 container.setAttribute('class', 'col');
                 container.style.width = width;
-                img.setAttribute('class', 'materialboxed');
+                if (!content.no_zoom) img.setAttribute('class', 'materialboxed');
                 img.style.width = '100%';
+                if (content.width !== undefined) {
+                    img.style.width = content.width;
+                    img.style.marginLeft = 'auto';
+                    img.style.marginRight = 'auto';
+                }
                 container.appendChild(img);
                 container.appendChild(preloader);
                 row.appendChild(container);
@@ -100,18 +105,13 @@ function generate_text_page_block(content) {
 
 function generate_text_page(contents) {
     let container = document.createElement('div');
-    let margin_left = document.createElement('div');
-    margin_left.setAttribute('class', 'col s0 xl3');
-    let margin_right = document.createElement('div');
-    margin_right.setAttribute('class', 'col s0 xl3');
+    container.setAttribute('class', 'container');
     let div = document.createElement('div');
-    div.setAttribute('class', 'col s12 xl6');
+    div.setAttribute('class', 'col s12 xl10 offset-xl1');
     for (let content of contents) {
         div.appendChild(generate_text_page_block(content));
     }
-    container.appendChild(margin_left);
     container.appendChild(div);
-    container.appendChild(margin_right);
     return container;
 }
 
@@ -137,16 +137,16 @@ function load_content() {
                     urls.push('content/projects/' + l);
                 }
                 load_objects(urls, function (projects) {
-                    for (let proj of projects) {
-                        appendContent(generate_project_card(proj));
+                    for (let project of projects) {
+                        appendContent(generate_project_card(project));
                     }
                 });
             });
             break;
 
         case 'project':
-            load_object('content/projects/' + params.get('project'), function (proj) {
-                appendContent(generate_text_page(proj.page));
+            load_object('content/projects/' + params.get('project'), function (project) {
+                appendContent(generate_text_page(project.page));
             });
             break;
 
