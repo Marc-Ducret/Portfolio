@@ -1,0 +1,65 @@
+{
+  id: "blob_labs",
+  name: "Blob Labs",
+  image: "blob_labs/card_image.png",
+  details: "A small puzzle-platformer made for the GMTK Game Jam 2019.",
+  page: [
+    {
+      type: "text",
+      title: "Blob Labs"
+    },
+    {
+      type: "text",
+      title: "GMTK Game Jam 2019",
+      text: "\
+        This is my entry for the GMTK Game Jam 2019. The theme was \"Only one\".\
+        I developed this game alongside 3 friends."
+    },
+    {
+      type: "text",
+      title: "Pitch",
+      text: "\
+        Blobs work as a collective intelligence which manipulates time to escape the most difficult traps.\
+        They don't hesitate to sacrifice some entities to help the next generation make it to the end.\
+        </br>\
+        At BlobLabs, we breed blobs. We trap them in test chambers of only one screen and in a time loop\
+        of only one minute, to select the most cunning and hellbent on escaping. Only one blob will make\
+        it to the next generation!"
+    },
+    {
+      type: "image",
+      src: "blob_labs/three_blobs.png",
+      caption: "Three blobs in action"
+    },
+    {
+      type: "text",
+      title: "",
+      text: "\
+        In this puzzle-platformer game, your goal is for at least one blob to make it to the end.\
+        To do so, you will have to sacrifice some other blobs."
+    },
+    {
+      type: "image",
+      src: "blob_labs/spike.png",
+      caption: "Beware of the spikes!"
+    },
+    {
+      type: "text",
+      title: "Deterministic Physics",
+      text: "\
+        When controlling a new blob, previous blobs repeat the actions they were previously given.\
+        for them to replicate the same movements, perfect determinism was required. This implied that\
+        we had to write a small deterministic physics simulation ourselves.\
+        </br>\
+        Doing it that way instead of recording the successive states of blobs enable future blobs to\
+        affect previous blobs which is a great addition to the gameplay."
+    },
+    {
+      type: "text",
+      title: "Try it!",
+      text: "\
+        You can try the game <a href=https://kegnarok.itch.io/bloblabs'>here</a> (play it in fullscreen\
+        on a 16:9 screen)."
+    }
+  ]
+}
