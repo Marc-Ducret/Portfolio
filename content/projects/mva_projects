@@ -36,7 +36,7 @@
                     Data Challenge provided by Owkin</a>.
                     The goal was to detect weather a patient contracted brest cancer metastases or not given about
                     1,000 samples. For more details, check out the
-                    <a href='https://github.com/VengeurK/OwkinDatachallenge'>Code</a> and
+                    <a href='https://github.com/Marc-Ducret/OwkinDatachallenge'>Code</a> and
                     <a href='content/documents/mva_projects/cancer.pdf'>Scientific Report</a>."},
                 {"type": "image", "src": "mva_projects/sample_1.jpg; mva_projects/sample_2.jpg",
                     "caption": "Sample examples"}

@@ -23,7 +23,7 @@
                 {"type": "image", "src": "cacatoes/src.png", "caption": "Project source tree in CacatOS"},
                 {"type": "image", "src": "cacatoes/tron.png", "caption": "Tron game program"},
                 {"type": "text", "title": "Code", "text": "
-                    The code is available on <a href='https://github.com/VengeurK/SysResProj'>GitHub</a>."},
+                    The code is available on <a href='https://github.com/Marc-Ducret/SysResProj'>GitHub</a>."},
                 {"type": "image", "src": "cacatoes/cp.png", "caption": "cp program implementation using our library"}
             ]
 }

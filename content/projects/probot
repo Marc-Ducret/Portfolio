@@ -15,7 +15,7 @@
                     Years later, I got back on the project alone. In the meantime, I learned about
                     deterministic lockstep and here was my solution for networked multiplayer. For the sake
                     of simplicity, I started with a 2D prototype. <br/>
-                    The code is available on <a href='https://github.com/VengeurK/Probot2DPrototype'>GitHub</a>."},
+                    The code is available on <a href='https://github.com/Marc-Ducret/Probot2DPrototype'>GitHub</a>."},
                 {"type": "image", "src": "probot/2Dmenu.png"},
                 {"type": "text", "text": "
                     There is a functional editor with assembly of a few simple shapes and components. The CPU can
@@ -35,8 +35,8 @@
                     a simple 3D engine based on OpenGL. This engine aims at displaying colored low poly models
                     with automatically highlighted edges.<br/>
                     The code is available on GitHub
-                    (<a href='https://github.com/VengeurK/SVEngine'>engine</a> |
-                     <a href='https://github.com/VengeurK/Probot3DPrototype'>prototype</a>)."},
+                    (<a href='https://github.com/Marc-Ducret/SVEngine'>engine</a> |
+                     <a href='https://github.com/Marc-Ducret/Probot3DPrototype'>prototype</a>)."},
                 {"type": "image", "src": "probot/3Dmenu.png"},
                 {"type": "image", "src": "probot/3Dengine.png"},
                 {"type": "text", "text": "
