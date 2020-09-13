@@ -1,1 +1,0 @@
-Place images and small videos here.

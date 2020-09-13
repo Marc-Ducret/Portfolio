@@ -1,1 +1,0 @@
-Use [this](https://realfavicongenerator.net/) to generate.

@@ -1,0 +1,89 @@
+{
+  id: "original_fps",
+  name: "Original FPS",
+  image: "original_fps/card_image.png",
+  details: "An unfinished game about refreshing the First Person Shooter genre with DotA inspired objectives.",
+  page: [
+    {
+      type: "text",
+      title: "Original FPS"
+    },
+    {
+      type: "text",
+      title: "Motivation",
+      text: "\
+        The goal of this project is to answer the conceptual issues that current FPS have: mainly a lack\
+        of strategic decision making, uninteresting objectives, time spend dead or too few emphasis on\
+        staying alive. Now, of course no game have all those issues but most have some."
+    },
+    {
+      type: "text",
+      title: "Concept",
+      text: "\
+        <p>\
+        My approach to answer those issues is to look at the currently thriving genres: DotA likes and\
+        survival games.\
+        </p>\
+        <p>\
+        The first idea is to put a strong emphasis on 'economy': some form of currency\
+        shall be collected and used to buy weapons and gear. Then the goal shouldn't be arbitrary points\
+        but structural damage on the opposing base. The asymmetry of defense and offense is very rich\
+        but having those two positions evolve during a match makes it even deeper (this is one of the\
+        things DotA likes do best in my opinion).\
+        </p>\
+        "
+    },
+    {
+      type: "image",
+      src: "original_fps/dota_map.png",
+      caption: "DotA 2 map"
+    },
+    {
+      type: "text",
+      text: "\
+        The second idea is to give incentives to stay alive and reward kills without death timers.\
+        Instead, like in survival games, a player would drop his gear upon death but respawn quickly\
+        at his base."
+    },
+    {
+      type: "text",
+      title: "Implementation",
+      text: "\
+        While trying to make games using only OpenGL and no engine was enriching it also had me realize\
+        how helpful such an engine can be. This project is my first attempt to use Unity. The current\
+        version is a prototype that aims at learning Unity and refining the concept."
+    },
+    {
+      type: "image",
+      src: "original_fps/character.png"
+    },
+    {
+      type: "text",
+      title: "Features",
+      text: "\
+        In this prototype, the movement, shooting, overall graphics and networking are about done."
+    },
+    {
+      type: "image",
+      src: "original_fps/nade.gif"
+    },
+    {
+      type: "image",
+      src: "original_fps/shooting.png"
+    },
+    {
+      type: "image",
+      src: "original_fps/shooting2.png"
+    },
+    {
+      type: "image",
+      src: "original_fps/nadeExplode.png"
+    },
+    {
+      type: "text",
+      title: "Remaining",
+      text: "\
+        The design of a map, an economy system and match features are work in progress."
+    }
+  ]
+}

@@ -1,1 +1,0 @@
-Place documents such as PDF files here.
