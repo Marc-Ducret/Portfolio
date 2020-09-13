@@ -1,0 +1,65 @@
+{
+  id: "eco_systems",
+  name: "Eco Systems",
+  image: "eco_systems/card_image.png",
+  details: "The early experiments of a procedural space eco system management and exploitation game.",
+  page: [
+    {
+      type: "text",
+      title: "Eco Systems"
+    },
+    {
+      type: "text",
+      title: "Concept",
+      text: "\
+        Eco Systems will be a game about managing and exploiting planets which are uniform eco systems.\
+        Each procedurally generated planet will host plants and animals that initially are in a stable\
+        equilibrium. Those planets are small and are therefore uniform in climate and distribution of\
+        species.\
+        </br>\
+        The players will want to exploit those eco systems for resources but will have to deal with\
+        consequences on the environment. Species can go extinct and food chains can be broken. Other\
+        species can proliferate out of control and cause damage. A balanced environment will have\
+        many benefits and will therefore be one of the main goals."
+    },
+    {
+      type: "text",
+      title: "Procedural Planet Generation",
+      text: "\
+        I implemented a \"basic\" procedural generation of small planets based on my custom Perlin noise\
+        algorithm that works on subdivisions of an icosahedron instead of a 2D grid. It is therefore\
+        well suited to generate continuous noise (for the terrain elevation) of a spherical object.\
+        </br>\
+        I also implemented a \"physical\" simulation of light scattering within atmospheres."
+    },
+    {
+      type: "image",
+      src: "eco_systems/planet_from_space.png",
+      caption: "A Generated Planet Seen from Outer Space"
+    },
+    {
+      type: "text",
+      title: "Sheep",
+      text: "\
+        To implement the many systems required for animals to exist, I started with the sheep as\
+        a representative test subject."
+    },
+    {
+      type: "image",
+      src: "eco_systems/sheep.png",
+      caption: "The Sheep Looking at the Sunset"
+    },
+    {
+      type: "text",
+      title: "",
+      text: "\
+        One of such systems is the quadruped locomotion procedural animation. Basically, it makes\
+        the feet of a quadruped react in a somewhat realist manner to the general motion of the body."
+    },
+    {
+      type: "image",
+      src: "eco_systems/quadruped_locomotion.gif",
+      caption: "The Sheep Walking"
+    }
+  ]
+}
