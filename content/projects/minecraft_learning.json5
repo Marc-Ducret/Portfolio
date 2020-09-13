@@ -1,0 +1,107 @@
+{
+  id: "minecraft_learning",
+  name: "Minecraft ML",
+  image: "minecraft_learning/card_image.png",
+  details: "A large scale machine learning framework for Minecraft.",
+  page: [
+    {
+      type: "text",
+      title: "Imitation and Reinforcement Learning in Minecraft"
+    },
+    {
+      type: "text",
+      title: "Context",
+      text: "\
+        This project was developed during my 5 months academic internship at USC, Los Angeles.\
+        Under the supervision of Fei Sha, my task was to develop a learning framework within Minecraft.\
+        This framework was aimed at Imitation Learning and Reinforcement Learning. I also experimented\
+        with opportunities for learning task using Minecraft."
+    },
+    {
+      type: "text",
+      text: "\
+        The long term goal is to use Minecraft to experiment with learning in the context of human\
+        societal behaviour."
+    },
+    {
+      type: "text",
+      title: "A new Framework",
+      text: "\
+        The resulting framework has many features. It can help with Imitation Learning by providing\
+        convenient solutions to record gameplay. Reinforcement Learning environments can easily be\
+        implemented and some input and output spaced are already defined. The main feature is to\
+        allow usage of Python agents and fast game execution to speed up learning."
+    },
+    {
+      type: "image",
+      src: "minecraft_learning/colored_raytrace.png",
+      caption: "Simple raytracing input space with one color per block type"
+    },
+    {
+      type: "image",
+      src: "minecraft_learning/pattern_obs_reconstruct.png",
+      caption: "Abstract raytracing for a team game environment"
+    },
+    {
+      type: "text",
+      title: "Scientific Report",
+      text: "\
+        More details can be found in my detailed <a href='content/documents/minecraft_learning/report.pdf'>\
+        Scientific Report</a>."
+    },
+    {
+      type: "text",
+      title: "Animated Figures",
+      text: " "
+    },
+    {
+      type: "image",
+      src: "minecraft_learning/rec_comp.gif",
+      caption: "Animated Figure 1:\
+                Comparison between direct screen recording and screen recording after reconstruction according to\
+                our recording format"
+    },
+    {
+      type: "image",
+      src: "minecraft_learning/random_parkour.gif",
+      caption: "Animated Figure 2:\
+                Parkour environment after 9 million time steps of A2C"
+    },
+    {
+      type: "image",
+      src: "minecraft_learning/cow_att.gif",
+      caption: "Animated Figure 3:\
+                CowArena environment with attention layer in the training setting (1-2 cows)"
+    },
+    {
+      type: "image",
+      src: "minecraft_learning/cow_att_transfer.gif",
+      caption: "Animated Figure 4:\
+                CowArena environment with attention layer transfer to another setting (1-20 cows)"
+    },
+    {
+      type: "image",
+      src: "minecraft_learning/tree_data.gif",
+      caption: "Animated Figure 5:\
+                Simple break tree policy: data"
+    },
+    {
+      type: "image",
+      src: "minecraft_learning/tree_imitation.gif",
+      caption: "Animated Figure 6:\
+                Simple break tree policy: imitation"
+    },
+    {
+      type: "image",
+      src: "minecraft_learning/human_data.gif",
+      caption: "Animated Figure 7:\
+                Human subjects: data"
+    },
+    {
+      type: "image",
+      src: "minecraft_learning/human_imitation.gif",
+      caption: "Animated Figure 8:\
+                Human subjects: imitation"
+    }
+  ]
+}

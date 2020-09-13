@@ -1,0 +1,25 @@
+[
+  {
+    type: "text",
+    text: "<div class='row' style='width:100%'>\
+            <a class='col s4' href='?content=text_page&page=about_me'>\
+                <div class='center hoverable'>\
+                    <i class='large material-icons @COLOR_SCHEME@-text'>person</i>\
+                    <h5 class='black-text' style='padding-bottom:10px'>About me</h5>\
+                </div>\
+            </a>\
+            <a class='col s4' href='?content=text_page&page=resume'>\
+                <div class='center hoverable'>\
+                    <i class='large material-icons @COLOR_SCHEME@-text'>assignment</i>\
+                    <h5 class='black-text' style='padding-bottom:10px'>Resume</h5>\
+                </div>\
+            </a>\
+            <a class='col s4' href='?content=projects'>\
+                <div class='center hoverable'>\
+                    <i class='large material-icons @COLOR_SCHEME@-text'>work</i>\
+                    <h5 class='black-text' style='padding-bottom:10px'>Projects</h5>\
+                </div>\
+            </a>\
+        </div>"
+  }
+]

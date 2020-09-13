@@ -1,47 +1,49 @@
 <html lang="en">
-    <head>
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="apple-touch-icon" sizes="180x180" href="/content/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/content/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/content/favicon/favicon-16x16.png">
-        <link rel="manifest" href="/content/favicon/site.webmanifest">
-        <link rel="mask-icon" href="/content/favicon/safari-pinned-tab.svg" color="#5bbad5">
-        <link rel="shortcut icon" href="/content/favicon/favicon.ico">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-config" content="/content/favicon/browserconfig.xml">
-        <meta name="theme-color" content="#ffffff">
-        <title>Marc Ducret</title>
-    </head>
+<head>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/content/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/content/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/content/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/content/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/content/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/content/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/content/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <title>Marc Ducret</title>
+</head>
 
-    <body>
-        <nav id="nav" style="z-index: 100" class="lighten-2">
-            <div class="nav-wrapper">
-                <div class="container">
-                    <ul id="nav-mobile" class="right">
-                        <li><a href="?content=text_page&page=about_me">About me</a></li>
-                        <li><a href="?content=text_page&page=resume">Resume</a></li>
-                        <li><a href="?content=projects">Projects</a></li>
-                    </ul>
-                    <a href="?content=text_page&page=home" class="brand-logo left">Marc Ducret</a>
-                </div>
-            </div>
-        </nav>
-
-        <div class="row" style="margin-top: 100px">
-            <div class="col s12 m12 l10 xl8 offset-l1 offset-xl2">
-                <div class="row" id="content">
-                </div>
-            </div>
+<body>
+<nav id="nav" style="z-index: 100" class="lighten-2">
+    <div class="nav-wrapper">
+        <div class="container">
+            <ul id="nav-mobile" class="right">
+                <li><a href="?content=text_page&page=about_me">About me</a></li>
+                <li><a href="?content=text_page&page=resume">Resume</a></li>
+                <li><a href="?content=projects">Projects</a></li>
+            </ul>
+            <a href="?content=text_page&page=home" class="brand-logo left">Marc Ducret</a>
         </div>
-    </body>
+    </div>
+</nav>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+<div class="row" style="margin-top: 100px">
+    <div class="col s12 m12 l10 xl8 offset-l1 offset-xl2">
+        <div class="row" id="content">
+        </div>
+    </div>
+</div>
+</body>
 
-    <script>
-        let elem = document.querySelector('#nav');
-        M.Pushpin.init(elem, {});
-    </script>
-    <script src="content.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+<script src="https://unpkg.com/json5@^2.0.0/dist/index.min.js"></script>
+
+<script>
+    let elem = document.querySelector('#nav');
+    M.Pushpin.init(elem, {});
+</script>
+<script src="content.js"></script>
 </html>

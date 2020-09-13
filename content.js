@@ -21,7 +21,7 @@ function generate_project_card(info) {
         '    </div>\n' +
         '\n' +
         '    <div class="card-action">\n' +
-        '        <a class="'+COLOR_SCHEME+'-text" href="?content=project&project=' + info.id + '">Project Page</a>\n' +
+        '        <a class="' + COLOR_SCHEME + '-text" href="?content=project&project=' + info.id + '">Project Page</a>\n' +
         '    </div>\n' +
         '</div>';
     return elem;
@@ -54,7 +54,7 @@ function generate_text_page_block(content) {
             row.style.margin = '0px';
             let srcs = content.src.split(';');
             let width = 100 / srcs.length + '%';
-            for(let src of srcs) {
+            for (let src of srcs) {
                 src = src.trim();
                 let img = document.createElement('img');
                 let container = document.createElement('div');
@@ -72,7 +72,7 @@ function generate_text_page_block(content) {
                     '</div>';
                 img.setAttribute('src', 'content/images/' + src);
                 img.style.display = 'block';
-                img.onload = function(ev) {
+                img.onload = function (ev) {
                     container.removeChild(preloader);
                     img.style.display = 'block';
                 };
@@ -160,11 +160,11 @@ function load_content() {
 
 function load_object(url, onload) {
     let req = new XMLHttpRequest();
-    req.open('GET', url);
+    req.open('GET', `${url}.json5`);
     req.onload = function () {
-        let json = req.responseText.replace(/[\n\r]/g, ' ').replace(/@COLOR_SCHEME@/g, COLOR_SCHEME);
+        let json = req.responseText.replace(/@COLOR_SCHEME@/g, COLOR_SCHEME);
         //TODO more general RegExp (replace @VAR@ with eval(VAR))
-        onload(JSON.parse(json));
+        onload(JSON5.parse(json));
     };
     req.send();
 }
