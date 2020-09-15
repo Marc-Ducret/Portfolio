@@ -1,0 +1,90 @@
+{
+  id: "container_port",
+  name: "Container Port",
+  image: "container_port/card_image.png",
+  details: "Simulation, visualisation and optimisation in container ports. Work produced during an industry internship.",
+  page: [
+    {
+      type: "text",
+      title: "Container Port"
+    },
+    {
+      type: "text",
+      title: "Objective",
+      text: "\
+        The goal of this project was to simulate, visualise and optimise the movements of containers and the machines\
+        handling them within container ports."
+    },
+    {
+      type: "text",
+      title: "Visualisation Tool",
+      text: "\
+        To do so, I created a 3D visualisation tool using Unity. Here are some pictures of it being used to visualise\
+        data from a real container port."
+    },
+    {
+      type: "image",
+      src: "container_port/reshuffling.png",
+      caption: "Container grabbed for a truck"
+    },
+    {
+      type: "image",
+      src: "container_port/rtg_deliveries.png",
+      caption: "Simultaneous deliveries"
+    },
+    {
+      type: "image",
+      src: "container_port/top_handler_filling.png",
+      caption: "Containers being stored"
+    },
+    {
+      type: "image",
+      src: "container_port/geometry.png;container_port/geometry_satellite.png",
+      caption: "Port geometry comparison"
+    },
+    {
+      type: "text",
+      title: "Road Inference Clustering Algorithm",
+      text: "\
+        In the port, there are some road that vehicles follow. However I had no GPS data for those roads shapes and\
+        locations. Since I had access to (noisy) data of the movements of machines in the port I designed and\
+        implemented a custom clustering algorithm that was able to infer the roads."
+    },
+    {
+      type: "image",
+      src: "container_port/clusters.png;container_port/clusters_transition_margin.png",
+      caption: "Inferred clusters and then transitions"
+    },
+    {
+      type: "text",
+      title: "Simulation and Optimisation",
+      text: "\
+        In order to test optimisation algorithms, a simulation of a whole port is required. It is a very complex system\
+        and therefore unforeseen consequences can happen.\
+        </br>\
+        I started implementing a simulator and made it compatible with the visualisation tool."
+    },
+    {
+      type: "text",
+      title: "Machine Allocation",
+      text: "\
+        One of the algorithms required for the simulation is how many machines are allocated to work\
+        in the same area."
+    },
+    {
+      type: "image",
+      src: "container_port/quay_crane_allocation.png",
+      caption: "Quay Crane Allocation"
+    },
+    {
+      type: "image",
+      src: "container_port/rtg_allocation.png",
+      caption: "RTG Allocation"
+    },
+    {
+      type: "image",
+      src: "container_port/top_lift_allocation.png",
+      caption: "Top Handler Allocation"
+    }
+  ]
+}
