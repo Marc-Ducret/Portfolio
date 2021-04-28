@@ -2,7 +2,6 @@
   id: "example",
   name: "Example Project",
   image: "example/card_image.png",
-  details: "Some details.",
   page: [
     {
       type: "text",
