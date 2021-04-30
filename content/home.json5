@@ -1,25 +1,104 @@
 [
   {
     type: "text",
-    text: "<div class='row' style='width:100%'>\
-            <a class='col s4' href='?content=text_page&page=about_me'>\
-                <div class='center hoverable'>\
-                    <i class='large material-icons @COLOR_SCHEME@-text'>person</i>\
-                    <h5 class='black-text' style='padding-bottom:10px'>About me</h5>\
-                </div>\
-            </a>\
-            <a class='col s4' href='?content=text_page&page=resume'>\
-                <div class='center hoverable'>\
-                    <i class='large material-icons @COLOR_SCHEME@-text'>assignment</i>\
-                    <h5 class='black-text' style='padding-bottom:10px'>Resume</h5>\
-                </div>\
-            </a>\
-            <a class='col s4' href='?content=projects'>\
-                <div class='center hoverable'>\
-                    <i class='large material-icons @COLOR_SCHEME@-text'>work</i>\
-                    <h5 class='black-text' style='padding-bottom:10px'>Projects</h5>\
-                </div>\
-            </a>\
-        </div>"
+    text: "\
+      <div class='row' style='width:100%'>\
+        <a href='?content=text_page&page=resume' class='col s4 hoverable'>\
+          <img class='activator' src='content/images/home/face.png' style='width:100%'/>\
+        </a>\
+        <div class='col s8'>\
+          <p class='flow-text'>\
+            I am a software engineer passionate about the creative and technical challenges of\
+            <b>multiplayer games</b>.\
+            <br/>\
+            I especially enjoy approaching game development with <b>simplicity</b>,\
+            <b>elegance</b> and <b>innovation</b> in mind.\
+          </p>\
+        </div>\
+      </div>",
+  },
+  {
+    type: "text",
+    text: "\
+      <br/>\
+      <br/>\
+      <div class='row' style='width:100%'>\
+        <div class='col s6 l4'>\
+          <a href='?content=project&project=little_blocks_mod'>\
+            <div class='card sticky-action hoverable'>\
+              <div class='card-image waves-effect waves-block waves-light'>\
+                <img class='activator' src='content/images/home/showcase/mod.png' alt=''>\
+              </div>\
+              <div class='card-content'>\
+                <span class='card-title activator grey-text text-darken-4'>\
+                  Popular mod\
+                </span>\
+              </div>\
+            </div>\
+          </a>\
+        </div>\
+        <div class='col s6 l4'>\
+          <a href='?content=project&project=island_kingdoms'>\
+            <div class='card sticky-action hoverable'>\
+              <div class='card-image waves-effect waves-block waves-light'>\
+                <img class='activator' src='content/images/home/showcase/release.png' alt=''>\
+              </div>\
+              <div class='card-content'>\
+                <span class='card-title activator grey-text text-darken-4'>\
+                  Release in 2022\
+                  <span class='new badge' data-badge-caption='wip'></span>\
+                </span>\
+              </div>\
+            </div>\
+          </a>\
+        </div>\
+        <div class='col s6 l4'>\
+          <a href='?content=project&project=original_fps'>\
+            <div class='card sticky-action hoverable'>\
+              <div class='card-image waves-effect waves-block waves-light'>\
+                <img class='activator' src='content/images/home/showcase/fps.png' alt=''>\
+              </div>\
+              <div class='card-content'>\
+                <span class='card-title activator grey-text text-darken-4'>\
+                  Multiplayer FPS\
+                  <span class='new badge' data-badge-caption='wip'></span>\
+                </span>\
+              </div>\
+            </div>\
+          </a>\
+        </div>\
+      </div>"
+  },
+  {
+    type: "text",
+    text: "\
+      <br/>\
+      <br/>\
+      <div class='row' style='width:100%'>\
+        <a class='col s3' href='?content=text_page&page=resume'>\
+          <div class='center'>\
+            <img src='content/images/home/icons/resume.svg' style='width:50%'>\
+            <h5 class='black-text' style='padding-bottom:10px'>Resume</h5>\
+          </div>\
+        </a>\
+        <a class='col s3' href='?content=projects'>\
+          <div class='center'>\
+            <img src='content/images/home/icons/projects.svg' style='width:50%'>\
+            <h5 class='black-text' style='padding-bottom:10px'>Projects</h5>\
+          </div>\
+        </a>\
+        <a class='col s3' href='https://github.com/Marc-Ducret/'>\
+          <div class='center'>\
+            <img src='content/images/home/icons/github.svg' style='width:50%'>\
+            <h5 class='black-text' style='padding-bottom:10px'>Github</h5>\
+          </div>\
+        </a>\
+        <a class='col s3' href='mailto:marc.t.ducret@gmail.com'>\
+          <div class='center'>\
+            <img src='content/images/home/icons/contact.svg' style='width:50%'>\
+            <h5 class='black-text' style='padding-bottom:10px'>Contact</h5>\
+          </div>\
+        </a>\
+      </div>"
   }
 ]
