@@ -2,7 +2,7 @@ html {
     font-family: Merriweather, serif;
 }
 
-div.card-action {
-    font-family: Roboto, sans-serif;
+ul#nav-mobile {
+    font-family: Open-Sans, sans-serif;
     font-weight: bold;
 }

@@ -7,7 +7,7 @@
           <img class='activator' src='content/images/home/face.png' style='width:100%'/>\
         </a>\
         <div class='col s8'>\
-          <p class='flow-text'>\
+          <p style='font-size: 1.4rem'>\
             I am a software engineer passionate about the creative and technical challenges of\
             <b>multiplayer games</b>.\
             <br/>\
