@@ -52,42 +52,59 @@ function generate_text_page_block(content) {
             let row = document.createElement('div');
             row.setAttribute('class', 'row');
             row.style.margin = '0px';
-            let srcs = content.src.split(';');
-            let width = 100 / srcs.length + '%';
-            for (let src of srcs) {
-                let img = document.createElement('img');
-                let container = document.createElement('div');
-                let preloader = document.createElement('div');
-                preloader.setAttribute('class', 'preloader-wrapper big active');
-                preloader.innerHTML =
-                    '<div class="spinner-layer spinner-blue-only">\n' +
-                    '    <div class="circle-clipper left">\n' +
-                    '        <div class="circle"></div>\n' +
-                    '    </div><div class="gap-patch">\n' +
-                    '        <div class="circle"></div>\n' +
-                    '    </div><div class="circle-clipper right">\n' +
-                    '        <div class="circle"></div>\n' +
-                    '    </div>\n' +
-                    '</div>';
-                img.setAttribute('src', image_src(src));
-                img.style.display = 'block';
-                img.onload = function (ev) {
-                    container.removeChild(preloader);
+            if (content.src) {
+                let srcs = content.src.split(';');
+                let width = 100 / srcs.length + '%';
+                for (let src of srcs) {
+                    let img = document.createElement('img');
+                    let container = document.createElement('div');
+                    let preloader = document.createElement('div');
+                    preloader.setAttribute('class', 'preloader-wrapper big active');
+                    preloader.innerHTML =
+                        '<div class="spinner-layer spinner-blue-only">\n' +
+                        '    <div class="circle-clipper left">\n' +
+                        '        <div class="circle"></div>\n' +
+                        '    </div><div class="gap-patch">\n' +
+                        '        <div class="circle"></div>\n' +
+                        '    </div><div class="circle-clipper right">\n' +
+                        '        <div class="circle"></div>\n' +
+                        '    </div>\n' +
+                        '</div>';
+                    img.setAttribute('src', image_src(src));
                     img.style.display = 'block';
-                };
-                container.setAttribute('class', 'col');
-                container.style.width = width;
-                if (!content.no_zoom) img.setAttribute('class', 'materialboxed');
-                img.style.width = '100%';
-                if (content.width !== undefined) {
-                    img.style.width = content.width;
-                    img.style.marginLeft = 'auto';
-                    img.style.marginRight = 'auto';
+                    img.onload = function (ev) {
+                        container.removeChild(preloader);
+                        img.style.display = 'block';
+                    };
+                    container.setAttribute('class', 'col');
+                    container.style.width = width;
+                    if (!content.no_zoom) img.setAttribute('class', 'materialboxed');
+                    img.style.width = '100%';
+                    if (content.width !== undefined) {
+                        img.style.width = content.width;
+                        img.style.marginLeft = 'auto';
+                        img.style.marginRight = 'auto';
+                    }
+                    container.appendChild(img);
+                    container.appendChild(preloader);
+                    row.appendChild(container);
                 }
-                container.appendChild(img);
-                container.appendChild(preloader);
-                row.appendChild(container);
             }
+
+            if (content.video) {
+                let video = document.createElement('video');
+                video.setAttribute('width', '100%');
+                video.controls = true;
+                video.autoplay = true;
+                video.muted = true;
+                video.loop = true;
+                let source = document.createElement('source');
+                source.src = content.video;
+                source.type = 'video/mp4';
+                video.appendChild(source)
+                row.appendChild(video)
+            }
+
             div.appendChild(row);
             if (content.caption) {
                 let caption = document.createElement('h5');

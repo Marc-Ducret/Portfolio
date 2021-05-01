@@ -35,6 +35,7 @@
     },
     {
       type: "image",
+      width: "50%",
       src: "original_fps/dota_map.png",
       caption: "DotA 2 map"
     },
@@ -47,43 +48,25 @@
     },
     {
       type: "text",
-      title: "Implementation",
+      title: "Prototype",
       text: "\
-        While trying to make games using only OpenGL and no engine was enriching it also had me realize\
-        how helpful such an engine can be. This project is my first attempt to use Unity. The current\
-        version is a prototype that aims at learning Unity and refining the concept."
+        The current prototype has working movement, shooting, inventory and networking.\
+        However, a proper map, objectives and economy system are work in progress."
     },
     {
       type: "image",
-      src: "original_fps/character.png"
-    },
-    {
-      type: "text",
-      title: "Features",
-      text: "\
-        In this prototype, the movement, shooting, overall graphics and networking are about done."
+      video: "content/images/original_fps/weapons.mp4",
+      caption: "Testing weapons and mods"
     },
     {
       type: "image",
-      src: "original_fps/nade.gif"
+      video: "content/images/original_fps/death.mp4",
+      caption: "Taking a head-shot"
     },
     {
       type: "image",
-      src: "original_fps/shooting.png"
-    },
-    {
-      type: "image",
-      src: "original_fps/shooting2.png"
-    },
-    {
-      type: "image",
-      src: "original_fps/nadeExplode.png"
-    },
-    {
-      type: "text",
-      title: "Remaining",
-      text: "\
-        The design of a map, an economy system and match features are work in progress."
+      video: "content/images/original_fps/enemy_bleeds.mp4",
+      caption: "Target bleeding out"
     }
   ]
 }
