@@ -1,7 +1,7 @@
 {
   id: "car_trajectory",
   name: "Car with trailer",
-  image: "car_trajectory/card_image.png",
+  image: "cloudinary/car_trajectory/card_image_rarsyg.png",
   details: "\
       A project for the Robotics Movement Planning course at ENS. The goal was to find trajectories for a\
       car with a trailer that avoid collision and where wheels do not drift.",
@@ -32,7 +32,7 @@
     },
     {
       type: "image",
-      src: "car_trajectory/card_image.png"
+      src: "cloudinary/car_trajectory/card_image_rarsyg.png"
     },
     {
       type: "text",
@@ -44,7 +44,7 @@
     },
     {
       type: "image",
-      src: "car_trajectory/linear_easy.gif;car_trajectory/linear_hard.gif",
+      src: "cloudinary/car_trajectory/linear_easy_in3ese.gif; cloudinary/car_trajectory/linear_hard_dhpo9i.gif",
       caption: "Linear interpolation"
     },
     {
@@ -58,12 +58,12 @@
     },
     {
       type: "image",
-      src: "car_trajectory/sampling.gif;car_trajectory/gradient_descend.gif",
+      src: "cloudinary/car_trajectory/sampling_lbtv2j.gif;cloudinary/car_trajectory/gradient_descend_e7vslq.gif",
       caption: "Find trajectory"
     },
     {
       type: "image",
-      src: "car_trajectory/skeleton.png;car_trajectory/potential.png",
+      src: "cloudinary/car_trajectory/skeleton_br3yba.png;cloudinary/car_trajectory/potential_qfgjm7.png",
       caption: "Computed potential"
     },
     {
@@ -77,7 +77,7 @@
     },
     {
       type: "image",
-      src: "car_trajectory/admissible_easy.gif;car_trajectory/admissible_hard.gif",
+      src: "cloudinary/car_trajectory/admissible_easy_izbcwc.gif;cloudinary/car_trajectory/admissible_hard_igpvje.gif",
       caption: "Admissible trajectories"
     },
     {
@@ -89,7 +89,7 @@
     },
     {
       type: "image",
-      src: "car_trajectory/optimized.gif",
+      src: "cloudinary/car_trajectory/optimized_a4iyv7.gif",
       caption: "Optimized trajectory"
     }
   ]

@@ -3,8 +3,8 @@
     type: "text",
     text: "\
       <div class='row' style='width:100%'>\
-        <a href='?content=text_page&page=resume' class='col s4 hoverable'>\
-          <img class='activator' src='content/images/home/face.png' style='width:100%'/>\
+        <a href='?content=text_page&page=resume' class='col s4'>\
+          <img class='activator' src='https://res.cloudinary.com/marc-ducret-io/image/upload/w_auto,q_auto,f_auto/v1619825783/home/face_n9hkeh.png' style='width:100%'/>\
         </a>\
         <div class='col s8'>\
           <p style='font-size: 1.4rem'>\
@@ -27,11 +27,11 @@
           <a href='?content=project&project=little_blocks_mod'>\
             <div class='card sticky-action hoverable'>\
               <div class='card-image waves-effect waves-block waves-light'>\
-                <img class='activator' src='content/images/home/showcase/mod.png' alt=''>\
+                <img class='activator' src='https://res.cloudinary.com/marc-ducret-io/image/upload/w_auto,q_auto,f_auto/v1619825778/home/showcase/mod_auatdf.png' alt=''>\
               </div>\
               <div class='card-content'>\
                 <span class='card-title activator grey-text text-darken-4'>\
-                  Popular mod\
+                  Popular Mod\
                 </span>\
               </div>\
             </div>\
@@ -41,7 +41,7 @@
           <a href='?content=project&project=island_kingdoms'>\
             <div class='card sticky-action hoverable'>\
               <div class='card-image waves-effect waves-block waves-light'>\
-                <img class='activator' src='content/images/home/showcase/release.png' alt=''>\
+                <img class='activator' src='https://res.cloudinary.com/marc-ducret-io/image/upload/w_auto,q_auto,f_auto/v1619825778/home/showcase/release_x0iupg.png' alt=''>\
               </div>\
               <div class='card-content'>\
                 <span class='card-title activator grey-text text-darken-4'>\
@@ -56,7 +56,7 @@
           <a href='?content=project&project=original_fps'>\
             <div class='card sticky-action hoverable'>\
               <div class='card-image waves-effect waves-block waves-light'>\
-                <img class='activator' src='content/images/home/showcase/fps.png' alt=''>\
+                <img class='activator' src='https://res.cloudinary.com/marc-ducret-io/image/upload/w_auto,q_auto,f_auto/v1619825778/home/showcase/fps_t3dmbe.png' alt=''>\
               </div>\
               <div class='card-content'>\
                 <span class='card-title activator grey-text text-darken-4'>\

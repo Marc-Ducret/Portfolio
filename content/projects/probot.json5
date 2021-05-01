@@ -1,7 +1,7 @@
 {
   id: "probot",
   name: "ProBot",
-  image: "probot/card_image.png",
+  image: "cloudinary/probot/card_image_xzv6pf.png",
   details: "An unfinished game about designing robots, programming them and having them fight with\
               other players' robots.",
   page: [
@@ -29,7 +29,7 @@
     },
     {
       type: "image",
-      src: "probot/2Dmenu.png"
+      src: "cloudinary/probot/2Dmenu_hdvzsy.png"
     },
     {
       type: "text",
@@ -39,7 +39,7 @@
     },
     {
       type: "image",
-      src: "probot/2Deditor.png",
+      src: "cloudinary/probot/2Deditor_afciqf.png",
       caption: "Robot editor"
     },
     {
@@ -51,12 +51,12 @@
     },
     {
       type: "image",
-      src: "probot/2Dmulti.png",
+      src: "cloudinary/probot/2Dmulti_dv6slc.png",
       caption: "Networked multiplayer on a single machine"
     },
     {
       type: "image",
-      src: "probot/2Dlaser.png",
+      src: "cloudinary/probot/2Dlaser_ohjgxs.png",
       caption: "Laser!"
     },
     {
@@ -78,11 +78,11 @@
     },
     {
       type: "image",
-      src: "probot/3Dmenu.png"
+      src: "cloudinary/probot/3Dmenu_avohsz.png"
     },
     {
       type: "image",
-      src: "probot/3Dengine.png"
+      src: "cloudinary/probot/3Dengine_uzzbgm.png"
     },
     {
       type: "text",

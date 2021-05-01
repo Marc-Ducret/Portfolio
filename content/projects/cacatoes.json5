@@ -1,7 +1,7 @@
 {
   id: "cacatoes",
   name: "CacatOS",
-  image: "cacatoes/card_image.png",
+  image: "cloudinary/cacatoes/card_image_rl134y.png",
   details: "\
     A project for the Operating System and Computer Networks course at ENS. The goal was to develop an operating\
     system from scratch.",
@@ -20,7 +20,7 @@
     },
     {
       type: "image",
-      src: "cacatoes/card_image.png",
+      src: "cloudinary/cacatoes/card_image_rl134y.png",
       caption: "Splash screen"
     },
     {
@@ -36,17 +36,17 @@
     },
     {
       type: "image",
-      src: "cacatoes/help.png; cacatoes/color.png",
+      src: "cloudinary/cacatoes/help_kz1bvh.png; cloudinary/cacatoes/color_lhyze8.png",
       caption: "Shell help and color change"
     },
     {
       type: "image",
-      src: "cacatoes/src.png",
+      src: "cloudinary/cacatoes/src_mvwrju.png",
       caption: "Project source tree in CacatOS"
     },
     {
       type: "image",
-      src: "cacatoes/tron.png",
+      src: "cloudinary/cacatoes/tron_kr17c9.png",
       caption: "Tron game program"
     },
     {
@@ -57,7 +57,7 @@
     },
     {
       type: "image",
-      src: "cacatoes/cp.png",
+      src: "cloudinary/cacatoes/cp_bmzjgq.png",
       caption: "cp program implementation using our library"
     }
   ]

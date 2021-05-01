@@ -1,7 +1,7 @@
 {
   id: "faithful_village",
   name: "A Faithful Village",
-  image: "faithful_village/card_image.png",
+  image: "cloudinary/faithful_village/card_image_kbpjsa.png",
   details: "In Faithful Village, You are a god, and like all gods, You crave faith. You turned Your all-seeing\
             gaze to this peaceful village whose inhabitants are a bit stupid, yet You feel they can accomplish\
             great things given the right guidance.",
@@ -27,7 +27,7 @@
     },
     {
       type: "image",
-      src: "faithful_village/big_town.png",
+      src: "cloudinary/faithful_village/big_town_awwctg.png",
       caption: "A developed town"
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       type: "image",
-      src: "faithful_village/sacrifice.png",
+      src: "cloudinary/faithful_village/sacrifice_vhnjil.png",
       caption: "A sacrifice"
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       type: "image",
-      src: "faithful_village/meteor.png",
+      src: "cloudinary/faithful_village/meteor_zqeztm.png",
       caption: "Some meteors"
     },
     {

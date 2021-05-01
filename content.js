@@ -1,5 +1,13 @@
 const COLOR_SCHEME = 'blue';
 
+function image_src(src) {
+    src = src.trim()
+    if (src.startsWith('cloudinary/'))
+        return src.replace('cloudinary/', 'https://res.cloudinary.com/marc-ducret-io/image/upload/w_auto,q_auto,f_auto/v1619825778/');
+    else
+        return 'content/images/' + src;
+}
+
 function generate_project_card(info) {
     let elem = document.createElement('div');
     elem.setAttribute('class', 'col s12 m6 l4');
@@ -7,7 +15,7 @@ function generate_project_card(info) {
         '<a href="?content=project&project=' + info.id + '">' +
         '    <div class="card sticky-action hoverable">\n' +
         '        <div class="card-image waves-effect waves-block waves-light">\n' +
-        '            <img class="activator" src="content/images/' + info.image + '" alt="">\n' +
+        '            <img class="activator" src="' + image_src(info.image) + '" alt="">\n' +
         '        </div>\n' +
         '        <div class="card-content">\n' +
         '            <span class="card-title activator grey-text text-darken-4">' +
@@ -47,7 +55,6 @@ function generate_text_page_block(content) {
             let srcs = content.src.split(';');
             let width = 100 / srcs.length + '%';
             for (let src of srcs) {
-                src = src.trim();
                 let img = document.createElement('img');
                 let container = document.createElement('div');
                 let preloader = document.createElement('div');
@@ -62,7 +69,7 @@ function generate_text_page_block(content) {
                     '        <div class="circle"></div>\n' +
                     '    </div>\n' +
                     '</div>';
-                img.setAttribute('src', 'content/images/' + src);
+                img.setAttribute('src', image_src(src));
                 img.style.display = 'block';
                 img.onload = function (ev) {
                     container.removeChild(preloader);

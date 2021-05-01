@@ -1,7 +1,7 @@
 {
   id: "eco_systems",
   name: "Eco Systems",
-  image: "eco_systems/card_image.png",
+  image: "cloudinary/eco_systems/card_image_i72a0b.png",
   details: "The early experiments of a procedural space eco system management and exploitation game.",
   page: [
     {
@@ -34,7 +34,7 @@
     },
     {
       type: "image",
-      src: "eco_systems/planet_from_space.png",
+      src: "cloudinary/eco_systems/planet_from_space_pey9va.png",
       caption: "A Generated Planet Seen from Outer Space"
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       type: "image",
-      src: "eco_systems/sheep.png",
+      src: "cloudinary/eco_systems/sheep_zkjvj1.png",
       caption: "The Sheep Looking at the Sunset"
     },
     {

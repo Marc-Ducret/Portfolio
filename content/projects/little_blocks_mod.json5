@@ -1,7 +1,7 @@
 {
   id: "little_blocks_mod",
   name: "Little Blocks Mod",
-  image: "minecraft/lbm/card_image.png",
+  image: "cloudinary/minecraft/lbm/card_image_m8wgag.png",
   details: "A Minecraft mod that allow its users to place small blocks that are eight times smaller than normal\
             blocks in every dimension.",
   page: [
@@ -11,7 +11,7 @@
     },
     {
       type: "image",
-      src: "minecraft/lbm/render.png"
+      src: "cloudinary/minecraft/lbm/render_cm7aeb.png"
     },
     {
       type: "text",
@@ -29,16 +29,16 @@
     {
       type: "image",
       src: "\
-        minecraft/lbm/creation1.png;\
-        minecraft/lbm/creation2.png;\
-        minecraft/lbm/creation3.png"
+        cloudinary/minecraft/lbm/creation1_dxbpud.png;\
+        cloudinary/minecraft/lbm/creation2_bldoyu.png;\
+        cloudinary/minecraft/lbm/creation3_jjsov3.png"
     },
     {
       type: "image",
       src: "\
-        minecraft/lbm/creation4.png;\
-        minecraft/lbm/creation5.png;\
-        minecraft/lbm/creation6.png"
+        cloudinary/minecraft/lbm/creation4_mw40yf.png;\
+        cloudinary/minecraft/lbm/creation5_s3xf57.png;\
+        cloudinary/minecraft/lbm/creation6_mfl9ig.png"
     },
     {
       type: "text",
@@ -48,15 +48,15 @@
     {
       type: "image",
       src: "\
-        minecraft/lbm/door_front.png;\
-        minecraft/lbm/door_back.png",
+        cloudinary/minecraft/lbm/door_front_x4bvnc.png;\
+        cloudinary/minecraft/lbm/door_back_msy2sb.png",
       caption: "A door entry code"
     },
     {
       type: "image",
       src: "\
-        minecraft/lbm/counter_front.png;\
-        minecraft/lbm/counter_back.png",
+        cloudinary/minecraft/lbm/counter_front_dj0m2e.png;\
+        cloudinary/minecraft/lbm/counter_back_gdsjej.png",
       caption: "A binary counter with 7 segment display"
     },
     {

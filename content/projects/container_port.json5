@@ -1,7 +1,7 @@
 {
   id: "container_port",
   name: "Container Port",
-  image: "container_port/card_image.png",
+  image: "cloudinary/container_port/card_image_mdueee.png",
   details: "Simulation, visualisation and optimisation in container ports. Work produced during an industry internship.",
   page: [
     {
@@ -24,22 +24,22 @@
     },
     {
       type: "image",
-      src: "container_port/reshuffling.png",
+      src: "cloudinary/container_port/reshuffling_nxfozz.png",
       caption: "Container grabbed for a truck"
     },
     {
       type: "image",
-      src: "container_port/rtg_deliveries.png",
+      src: "cloudinary/container_port/rtg_deliveries_kduygz.png",
       caption: "Simultaneous deliveries"
     },
     {
       type: "image",
-      src: "container_port/top_handler_filling.png",
+      src: "cloudinary/container_port/top_handler_filling_wdughi.png",
       caption: "Containers being stored"
     },
     {
       type: "image",
-      src: "container_port/geometry.png;container_port/geometry_satellite.png",
+      src: "cloudinary/container_port/geometry_glxxbf.png;cloudinary/container_port/geometry_satellite_opizve.png",
       caption: "Port geometry comparison"
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       type: "image",
-      src: "container_port/clusters.png;container_port/clusters_transition_margin.png",
+      src: "cloudinary/container_port/clusters_imnqge.png;cloudinary/container_port/clusters_transition_margin_e8mhae.png",
       caption: "Inferred clusters and then transitions"
     },
     {
@@ -73,17 +73,17 @@
     },
     {
       type: "image",
-      src: "container_port/quay_crane_allocation.png",
+      src: "cloudinary/container_port/quay_crane_allocation_gcbefw.png",
       caption: "Quay Crane Allocation"
     },
     {
       type: "image",
-      src: "container_port/rtg_allocation.png",
+      src: "cloudinary/container_port/rtg_allocation_d7ye2k.png",
       caption: "RTG Allocation"
     },
     {
       type: "image",
-      src: "container_port/top_lift_allocation.png",
+      src: "cloudinary/container_port/top_lift_allocation_cjondd.png",
       caption: "Top Handler Allocation"
     }
   ]

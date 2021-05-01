@@ -1,7 +1,7 @@
 {
   id: "mva_projects",
   name: "MVA Projects",
-  image: "mva_projects/card_image.png",
+  image: "cloudinary/mva_projects/card_image_c94mff.png",
   details: "Three machine learning projects in the context of the \"MVA\" master.",
   page: [
     {
@@ -26,7 +26,7 @@
     },
     {
       type: "image",
-      src: "mva_projects/pick_fetch_1.png; mva_projects/pick_fetch_2.png",
+      src: "cloudinary/mva_projects/pick_fetch_1_bjbyy4.png; cloudinary/mva_projects/pick_fetch_2_xvhe7c.png",
       caption: "OpenAI Gym FetchPickAndPlace"
     },
     {
@@ -39,7 +39,7 @@
     },
     {
       type: "image",
-      src: "mva_projects/robotic_results.png",
+      src: "cloudinary/mva_projects/robotic_results_ycyj7h.png",
       caption: "Results"
     },
     {
@@ -55,13 +55,13 @@
     },
     {
       type: "image",
-      src: "mva_projects/graph_policy.gif",
+      src: "cloudinary/mva_projects/graph_policy_jkkwxm.gif",
       caption: "Learned Policy",
       "width": "50%"
     },
     {
       type: "image",
-      src: "mva_projects/graph_results.png",
+      src: "cloudinary/mva_projects/graph_results_wxr9zz.png",
       caption: "Results"
     },
     {
@@ -77,7 +77,7 @@
     },
     {
       type: "image",
-      src: "mva_projects/sample_1.jpg; mva_projects/sample_2.jpg",
+      src: "cloudinary/mva_projects/sample_1_akiu7i.jpg; cloudinary/mva_projects/sample_2_cvionm.jpg",
       caption: "Sample examples"
     }
   ]

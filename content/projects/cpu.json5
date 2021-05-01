@@ -1,7 +1,7 @@
 {
   id: "cpu",
   name: "CPU Design",
-  image: "cpu/card_image.png",
+  image: "cloudinary/cpu/card_image_oqlzd1.png",
   details: "A project for the Digital System course at ENS. The goal was to design a simple CPU using logic gates,\
             compile it to a netlist and simulate it.",
   page: [
@@ -26,7 +26,7 @@
     },
     {
       type: "image",
-      src: "cpu/adder.png; cpu/alu.png",
+      src: "cloudinary/cpu/adder_ipirpq.png; cloudinary/cpu/alu_aqha3d.png",
       caption: "Some CPU circuits in high-level language"
     },
     {
@@ -36,7 +36,7 @@
     },
     {
       type: "image",
-      src: "cpu/compile.png",
+      src: "cloudinary/cpu/compile_wtp9zp.png",
       caption: "Compiling of a program to our assembly"
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       type: "image",
-      src: "cpu/compiled_netlist.png",
+      src: "cloudinary/cpu/compiled_netlist_rvamym.png",
       caption: "Some resulting C code"
     },
     {
@@ -61,7 +61,7 @@
     },
     {
       type: "image",
-      src: "cpu/tong.png; cpu/compile.png",
+      src: "cloudinary/cpu/tong_g0goas.png; cloudinary/cpu/compile_wtp9zp.png",
       caption: "Pong Tong code and compiling"
     },
     {
@@ -73,7 +73,7 @@
     },
     {
       type: "image",
-      src: "cpu/pong_play.png; cpu/pong_lose.png",
+      src: "cloudinary/cpu/pong_play_mxbfjd.png; cloudinary/cpu/pong_lose_amkhus.png",
       caption: "Pong game program"
     }
   ]

@@ -1,7 +1,7 @@
 {
   id: "gamemodes",
   name: "Gamemodes",
-  image: "minecraft/gamemodes/card_image.png",
+  image: "cloudinary/minecraft/gamemodes/card_image_gbur01.png",
   details: "Under the Slimevoid organization that I co-funded with a friend, we tried to design mods that\
             aimed at redefining Minecraft by creating gamemodes to be played within it.",
   page: [
@@ -11,7 +11,7 @@
     },
     {
       type: "image",
-      src: "minecraft/gamemodes/infection.png"
+      src: "cloudinary/minecraft/gamemodes/infection_qwoohh.png"
     },
     {
       type: "text",
@@ -23,17 +23,17 @@
     },
     {
       type: "image",
-      src: "minecraft/gamemodes/meteor.gif",
+      src: "cloudinary/minecraft/gamemodes/meteor_zh3l7i.gif",
       caption: "Meteor starting the infection (opening cutscene)"
     },
     {
       type: "image",
-      src: "minecraft/gamemodes/collect.gif",
+      src: "cloudinary/minecraft/gamemodes/collect_askgfr.gif",
       caption: "Diamond collecting"
     },
     {
       type: "image",
-      src: "minecraft/gamemodes/fight.gif",
+      src: "cloudinary/minecraft/gamemodes/fight_oeydvk.gif",
       caption: "Fighting the infection"
     },
     {
@@ -42,7 +42,7 @@
     },
     {
       type: "image",
-      src: "minecraft/gamemodes/bombermine.png"
+      src: "cloudinary/minecraft/gamemodes/bombermine_a5zbsd.png"
     },
     {
       type: "text",
@@ -54,17 +54,17 @@
     },
     {
       type: "image",
-      src: "minecraft/gamemodes/map.png",
+      src: "cloudinary/minecraft/gamemodes/map_j90zei.png",
       caption: "A Bombermine map"
     },
     {
       type: "image",
-      src: "minecraft/gamemodes/explode.gif",
+      src: "cloudinary/minecraft/gamemodes/explode_xr3fxp.gif",
       caption: "Powerup that make explosions not stop at first obstacle"
     },
     {
       type: "image",
-      src: "minecraft/gamemodes/detection.gif",
+      src: "cloudinary/minecraft/gamemodes/detection_guirqt.gif",
       caption: "Detection bomb"
     },
     {
@@ -81,12 +81,12 @@
     },
     {
       type: "image",
-      src: "minecraft/gamemodes/gravity.gif",
+      src: "cloudinary/minecraft/gamemodes/gravity_vzi0ma.gif",
       caption: "Gravity change"
     },
     {
       type: "image",
-      src: "minecraft/gamemodes/upsidedown.gif",
+      src: "cloudinary/minecraft/gamemodes/upsidedown_zp93h5.gif",
       caption: "Building upside-down"
     }
   ]

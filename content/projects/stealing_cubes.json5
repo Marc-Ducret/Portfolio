@@ -1,7 +1,7 @@
 {
   id: "stealing_cubes",
   name: "Stealing Cubes",
-  image: "stealing_cubes/card_image.png",
+  image: "cloudinary/stealing_cubes/card_image_wivfzr.png",
   details: "In Stealing Cubes, you are inside a sphere and must gather as much cubes as you can. While\
             doing so, the glowing spheres get more and more angry and try to hit you.",
   page: [
@@ -28,12 +28,12 @@
     },
     {
       type: "image",
-      src: "stealing_cubes/sphere.png",
+      src: "cloudinary/stealing_cubes/sphere_juxpyx.png",
       caption: "Looking up"
     },
     {
       type: "image",
-      src: "stealing_cubes/spherical_movement.gif",
+      src: "cloudinary/stealing_cubes/spherical_movement_wqzrqm.gif",
       caption: "Movement"
     },
     {
@@ -45,7 +45,7 @@
     },
     {
       type: "image",
-      src: "stealing_cubes/collect.gif",
+      src: "cloudinary/stealing_cubes/collect_p4i9fv.gif",
       caption: "Collecting"
     },
     {
@@ -56,12 +56,12 @@
     },
     {
       type: "image",
-      src: "stealing_cubes/knock_out.gif",
+      src: "cloudinary/stealing_cubes/knock_out_oes6bf.gif",
       caption: "Knocking out a sphere"
     },
     {
       type: "image",
-      src: "stealing_cubes/death.png",
+      src: "cloudinary/stealing_cubes/death_odf4ta.png",
       caption: "Dying"
     },
     {
@@ -73,7 +73,7 @@
     },
     {
       type: "image",
-      src: "stealing_cubes/results.png",
+      src: "cloudinary/stealing_cubes/results_afansm.png",
       caption: "Final Ludum Dare rankings"
     }
   ]
