@@ -7,7 +7,7 @@
   {
     type: "text",
     text: "\
-      <a class='waves-effect waves-light btn blue' href='content/documents/resume.pdf'>\
+      <a class='waves-effect waves-light btn @COLOR_SCHEME@' href='content/documents/resume.pdf'>\
         <span class='white-text'>\
         <i class='material-icons left'>file_download</i> Download PDF\
         </span>\
