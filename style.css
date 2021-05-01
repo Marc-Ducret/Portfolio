@@ -2,7 +2,16 @@ html {
     font-family: Merriweather, serif;
 }
 
-ul#nav-mobile {
+a.brand-logo {
+    font-size: 3rem;
+}
+
+nav ul a {
     font-family: Open-Sans, sans-serif;
-    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+a.btn {
+    font-family: Open-Sans, sans-serif;
+    font-size: 1rem;
 }
