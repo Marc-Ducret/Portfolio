@@ -7,7 +7,7 @@
           <img class='activator' src='https://res.cloudinary.com/marc-ducret-io/image/upload/w_auto,q_auto,f_auto/v1619825783/home/face_n9hkeh.png' style='width:100%'/>\
         </a>\
         <div class='col s8'>\
-          <p style='font-size: 1.4rem'>\
+          <p style='font-size: 1.4rem; text-align: left'>\
             I am a software engineer passionate about the creative and technical challenges of\
             <b>multiplayer games</b>.\
             <br/>\
@@ -30,7 +30,7 @@
                 <img class='activator' src='https://res.cloudinary.com/marc-ducret-io/image/upload/w_auto,q_auto,f_auto/v1619825778/home/showcase/mod_auatdf.png' alt=''>\
               </div>\
               <div class='card-content'>\
-                <span class='card-title activator grey-text text-darken-4'>\
+                <span class='card-title activator text-color' style='text-align: left'>\
                   Popular Mod\
                 </span>\
               </div>\
@@ -44,7 +44,7 @@
                 <img class='activator' src='https://res.cloudinary.com/marc-ducret-io/image/upload/w_auto,q_auto,f_auto/v1619825778/home/showcase/release_x0iupg.png' alt=''>\
               </div>\
               <div class='card-content'>\
-                <span class='card-title activator grey-text text-darken-4'>\
+                <span class='card-title activator text-color' style='text-align: left'>\
                   Release in 2022\
                   <span class='new badge @COLOR_SCHEME@' data-badge-caption='wip'></span>\
                 </span>\
@@ -59,7 +59,7 @@
                 <img class='activator' src='https://res.cloudinary.com/marc-ducret-io/image/upload/w_auto,q_auto,f_auto/v1619825778/home/showcase/fps_t3dmbe.png' alt=''>\
               </div>\
               <div class='card-content'>\
-                <span class='card-title activator grey-text text-darken-4'>\
+                <span class='card-title activator text-color' style='text-align: left'>\
                   Multiplayer FPS\
                   <span class='new badge @COLOR_SCHEME@' data-badge-caption='wip'></span>\
                 </span>\
@@ -78,25 +78,25 @@
         <a class='col s3' href='?content=text_page&page=resume'>\
           <div class='center'>\
             <img src='content/images/home/icons/resume.svg' style='width:50%'>\
-            <h5 class='black-text' style='padding-bottom:10px'>Resume</h5>\
+            <h5 class='text-color' style='padding-bottom:10px'>Resume</h5>\
           </div>\
         </a>\
         <a class='col s3' href='?content=projects'>\
           <div class='center'>\
             <img src='content/images/home/icons/projects.svg' style='width:50%'>\
-            <h5 class='black-text' style='padding-bottom:10px'>Projects</h5>\
+            <h5 class='text-color' style='padding-bottom:10px'>Projects</h5>\
           </div>\
         </a>\
         <a class='col s3' href='https://github.com/Marc-Ducret/'>\
           <div class='center'>\
             <img src='content/images/home/icons/github.svg' style='width:50%'>\
-            <h5 class='black-text' style='padding-bottom:10px'>Github</h5>\
+            <h5 class='text-color' style='padding-bottom:10px'>Github</h5>\
           </div>\
         </a>\
         <a class='col s3' href='mailto:marc.t.ducret@gmail.com'>\
           <div class='center'>\
             <img src='content/images/home/icons/contact.svg' style='width:50%'>\
-            <h5 class='black-text' style='padding-bottom:10px'>Contact</h5>\
+            <h5 class='text-color' style='padding-bottom:10px'>Contact</h5>\
           </div>\
         </a>\
       </div>"

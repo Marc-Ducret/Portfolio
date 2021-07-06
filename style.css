@@ -1,5 +1,17 @@
+.text-color, html {
+    color: hsl(207, 100%, 15%);
+}
+
+.text-emphasis-color, b {
+    color: hsl(207, 100%, 25%);
+}
+
 html {
     font-family: Merriweather, serif;
+}
+
+p {
+    font-size: 1.2rem;
 }
 
 a.brand-logo {
@@ -7,7 +19,6 @@ a.brand-logo {
 }
 
 nav ul a {
-    font-family: Open-Sans, sans-serif;
     font-size: 1.5rem;
 }
 

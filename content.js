@@ -18,7 +18,7 @@ function generate_project_card(info) {
         '            <img class="activator" src="' + image_src(info.image) + '" alt="">\n' +
         '        </div>\n' +
         '        <div class="card-content">\n' +
-        '            <span class="card-title activator grey-text text-darken-4">' +
+        '            <span class="card-title activator text-color">' +
         '            ' + info.name +
         '            </span>\n' +
         '        </div>\n' +
