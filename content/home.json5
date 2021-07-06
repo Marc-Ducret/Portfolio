@@ -2,11 +2,11 @@
   {
     type: "text",
     text: "\
-      <div class='row' style='width:100%'>\
+      <div class='row' style='width:100%; display: flex; align-items: center'>\
         <a href='?content=text_page&page=resume' class='col s4'>\
           <img class='activator' src='https://res.cloudinary.com/marc-ducret-io/image/upload/w_auto,q_auto,f_auto/v1619825783/home/face_n9hkeh.png' style='width:100%'/>\
         </a>\
-        <div class='col s8'>\
+        <div class='col s8' style='vertical-align: middle'>\
           <p style='font-size: 1.4rem; text-align: left'>\
             I am a software engineer passionate about the creative and technical challenges of\
             <b>multiplayer games</b>.\
