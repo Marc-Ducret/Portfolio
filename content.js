@@ -1,5 +1,21 @@
 const COLOR_SCHEME = 'blue';
 
+const BADGES_COLORS = {
+    "C#": "indigo",
+    "Java": "indigo",
+    "Python": "indigo",
+    "C": "indigo",
+    "Assembly": "indigo",
+    "OCaml": "indigo",
+    "Unity": "orange",
+    "OpenGL": "orange",
+    "Minecraft": "orange",
+    "TensorFlow": "orange",
+    "PyTorch": "orange",
+    "AI": "lime",
+    "wip": "red",
+}
+
 function image_src(src) {
     src = src.trim()
     if (src.startsWith('cloudinary/'))
@@ -8,23 +24,34 @@ function image_src(src) {
         return 'content/images/' + src;
 }
 
-function generate_project_card(info) {
-    let elem = document.createElement('div');
-    elem.setAttribute('class', 'col s12 m6 l4');
-    elem.innerHTML =
-        '<a href="?content=project&project=' + info.id + '">' +
+function generate_card(div, href, image, name, tags) {
+    div.innerHTML =
+        '<a href="' + href + '">' +
         '    <div class="card sticky-action hoverable">\n' +
         '        <div class="card-image waves-effect waves-block waves-light">\n' +
-        '            <img class="activator" src="' + image_src(info.image) + '" alt="">\n' +
+        '            <img class="activator" src="' + image_src(image) + '" alt="">\n' +
         '        </div>\n' +
         '        <div class="card-content">\n' +
         '            <span class="card-title activator text-color">' +
-        '            ' + info.name +
+        '            ' + name + '</br>' +
         '            </span>\n' +
         '        </div>\n' +
         '    </div>' +
         '</a>';
-    return elem;
+    let cardTitle = div.getElementsByClassName("card-title")[0]
+    for (let tag of tags) {
+        let badgeElement = document.createElement('span')
+        badgeElement.className = 'new badge ' + BADGES_COLORS[tag]
+        badgeElement.setAttribute('data-badge-caption', tag)
+        cardTitle.appendChild(badgeElement)
+    }
+}
+
+function generate_project_card(info) {
+    let elem = document.createElement('div');
+    elem.setAttribute('class', 'col s12 m6 l4');
+    generate_card(elem, '?content=project&project=' + info.id, info.image, info.name, info.tags)
+    return elem
 }
 
 function generate_text_page_block(content) {
@@ -115,6 +142,9 @@ function generate_text_page_block(content) {
                 div.appendChild(caption);
             }
             break;
+    }
+    for (let elem of div.getElementsByClassName("project-card")) {
+        generate_card(elem, elem.getAttribute("href"), elem.getAttribute("image"), elem.getAttribute("name"), elem.getAttribute("badges").split(" "))
     }
     return div;
 }

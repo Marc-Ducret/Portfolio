@@ -3,6 +3,7 @@
   name: "MVA Projects",
   image: "cloudinary/mva_projects/card_image_c94mff.png",
   details: "Three machine learning projects in the context of the \"MVA\" master.",
+  tags: ["Python", "TensorFlow", "PyTorch", "AI"],
   page: [
     {
       type: "text",

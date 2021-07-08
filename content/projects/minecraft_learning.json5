@@ -3,6 +3,7 @@
   name: "Minecraft ML",
   image: "minecraft_learning/card_image.png",
   details: "A large scale machine learning framework for Minecraft.",
+  tags: ["Python", "Java", "Minecraft", "PyTorch", "AI"],
   page: [
     {
       type: "text",

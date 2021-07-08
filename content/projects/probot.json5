@@ -4,6 +4,7 @@
   image: "cloudinary/probot/card_image_xzv6pf.png",
   details: "An unfinished game about designing robots, programming them and having them fight with\
               other players' robots.",
+  tags: ["Java", "OpenGL"],
   page: [
     {
       type: "text",

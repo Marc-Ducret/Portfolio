@@ -4,6 +4,7 @@
   image: "cloudinary/minecraft/lbm/card_image_m8wgag.png",
   details: "A Minecraft mod that allow its users to place small blocks that are eight times smaller than normal\
             blocks in every dimension.",
+  tags: ["Java", "OpenGL", "Minecraft"],
   page: [
     {
       type: "text",

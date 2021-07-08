@@ -5,6 +5,7 @@
   details: "In Faithful Village, You are a god, and like all gods, You crave faith. You turned Your all-seeing\
             gaze to this peaceful village whose inhabitants are a bit stupid, yet You feel they can accomplish\
             great things given the right guidance.",
+  tags: ["C#", "Unity"],
   page: [
     {
       type: "text",

@@ -4,6 +4,7 @@
   image: "cloudinary/cpu/card_image_oqlzd1.png",
   details: "A project for the Digital System course at ENS. The goal was to design a simple CPU using logic gates,\
             compile it to a netlist and simulate it.",
+  tags: ["OCaml", "C"],
   page: [
     {
       type: "text",

@@ -2,9 +2,10 @@
   {
     type: "text",
     text: "\
-      <div class='row' style='width:100%; display: flex; align-items: center'>\
+      <div class='row header' style='width:100%; display: flex; align-items: center; margin: 0;'>\
+        <div class='header-background'><div class='shadow'></div></div>\
         <a href='?content=text_page&page=resume' class='col s4'>\
-          <img class='activator' src='https://res.cloudinary.com/marc-ducret-io/image/upload/w_auto,q_auto,f_auto/v1619825783/home/face_n9hkeh.png' style='width:100%'/>\
+          <img class='activator' src='content/images/home/photo-003.png' style='width:100%'/>\
         </a>\
         <div class='col s8' style='vertical-align: middle'>\
           <p style='font-size: 1.4rem; text-align: left'>\
@@ -23,50 +24,9 @@
       <br/>\
       <br/>\
       <div class='row' style='width:100%'>\
-        <div class='col s6 l4'>\
-          <a href='?content=project&project=little_blocks_mod'>\
-            <div class='card sticky-action hoverable'>\
-              <div class='card-image waves-effect waves-block waves-light'>\
-                <img class='activator' src='https://res.cloudinary.com/marc-ducret-io/image/upload/w_auto,q_auto,f_auto/v1619825778/home/showcase/mod_auatdf.png' alt=''>\
-              </div>\
-              <div class='card-content'>\
-                <span class='card-title activator text-color' style='text-align: left'>\
-                  Popular Mod\
-                </span>\
-              </div>\
-            </div>\
-          </a>\
-        </div>\
-        <div class='col s6 l4'>\
-          <a href='?content=project&project=island_kingdoms'>\
-            <div class='card sticky-action hoverable'>\
-              <div class='card-image waves-effect waves-block waves-light'>\
-                <img class='activator' src='https://res.cloudinary.com/marc-ducret-io/image/upload/w_auto,q_auto,f_auto/v1619825778/home/showcase/release_x0iupg.png' alt=''>\
-              </div>\
-              <div class='card-content'>\
-                <span class='card-title activator text-color' style='text-align: left'>\
-                  Release in 2022\
-                  <span class='new badge @COLOR_SCHEME@' data-badge-caption='wip'></span>\
-                </span>\
-              </div>\
-            </div>\
-          </a>\
-        </div>\
-        <div class='col s6 l4'>\
-          <a href='?content=project&project=original_fps'>\
-            <div class='card sticky-action hoverable'>\
-              <div class='card-image waves-effect waves-block waves-light'>\
-                <img class='activator' src='https://res.cloudinary.com/marc-ducret-io/image/upload/w_auto,q_auto,f_auto/v1619825778/home/showcase/fps_t3dmbe.png' alt=''>\
-              </div>\
-              <div class='card-content'>\
-                <span class='card-title activator text-color' style='text-align: left'>\
-                  Multiplayer FPS\
-                  <span class='new badge @COLOR_SCHEME@' data-badge-caption='wip'></span>\
-                </span>\
-              </div>\
-            </div>\
-          </a>\
-        </div>\
+        <div class='col s6 l4 project-card' href='?content=project&project=little_blocks_mod' image='cloudinary/home/showcase/mod_auatdf.png' name='Popular Mod' badges='Java OpenGL'/></div>\
+        <div class='col s6 l4 project-card' href='?content=project&project=island_kingdoms' image='cloudinary/home/showcase/release_x0iupg.png' name='Releases Soon' badges='C# Unity wip'></div>\
+        <div class='col s6 l4 project-card' href='?content=project&project=original_fps' image='cloudinary/home/showcase/fps_t3dmbe.png' name='Multiplayer FPS' badges='C# Unity wip'></div>\
       </div>"
   },
   {

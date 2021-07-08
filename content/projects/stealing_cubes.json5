@@ -4,6 +4,7 @@
   image: "cloudinary/stealing_cubes/card_image_wivfzr.png",
   details: "In Stealing Cubes, you are inside a sphere and must gather as much cubes as you can. While\
             doing so, the glowing spheres get more and more angry and try to hit you.",
+  tags: ["C#", "Unity"],
   page: [
     {
       type: "text",

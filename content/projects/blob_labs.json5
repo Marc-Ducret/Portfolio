@@ -3,6 +3,7 @@
   name: "Blob Labs",
   image: "cloudinary/blob_labs/card_image_dfimrs.png",
   details: "A small puzzle-platformer made for the GMTK Game Jam 2019.",
+  tags: ["C#", "Unity"],
   page: [
     {
       type: "text",

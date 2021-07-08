@@ -3,6 +3,7 @@
   name: "Eco Systems",
   image: "cloudinary/eco_systems/card_image_i72a0b.png",
   details: "The early experiments of a procedural space eco system management and exploitation game.",
+  tags: ["C#", "Unity"],
   page: [
     {
       type: "text",

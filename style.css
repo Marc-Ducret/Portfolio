@@ -26,3 +26,28 @@ a.btn {
     font-family: Open-Sans, sans-serif;
     font-size: 1rem;
 }
+
+span.badge {
+    float: none;
+    display: inline-block;
+    padding: 0 6px;
+    margin: 0 8px 0 0;
+    min-width: 2rem;
+    font-family: Open Sans, sans-serif;
+}
+
+div.header {
+    position: relative;
+}
+
+div.header-background {
+    position: absolute;
+    width: 100vw;
+    margin-left: -50vw;
+    left: 50%;
+    height: 200%;
+    top: -100%;
+    background-color: #adcfeb85;
+    box-shadow: inset 0 -5px 14px -10px;
+    z-index: -1;
+}

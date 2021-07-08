@@ -3,6 +3,7 @@
   name: "Container Port",
   image: "cloudinary/container_port/card_image_mdueee.png",
   details: "Simulation, visualisation and optimisation in container ports. Work produced during an industry internship.",
+  tags: ["C#", "Python", "Java", "Unity", "AI"],
   page: [
     {
       type: "text",
