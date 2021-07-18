@@ -3,7 +3,11 @@
   name: "Original FPS",
   image: "original_fps/card_image.png",
   details: "An unfinished game about refreshing the First Person Shooter genre with DotA inspired objectives.",
-  tags: ["C#", "Unity"],
+  tags: [
+    "C#",
+    "Unity",
+    "Multiplayer"
+  ],
   page: [
     {
       type: "text",

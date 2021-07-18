@@ -5,7 +5,10 @@
   details: "\
       A project for the Robotics Movement Planning course at ENS. The goal was to find trajectories for a\
       car with a trailer that avoid collision and where wheels do not drift.",
-  tags: ["C#", "Unity"],
+  tags: [
+    "C#",
+    "Unity"
+  ],
   page: [
     {
       type: "text",

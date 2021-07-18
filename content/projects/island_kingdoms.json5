@@ -1,0 +1,59 @@
+{
+  id: "island_kingdoms",
+  name: "Island Kingdoms",
+  image: "cloudinary/island_kingdoms/card_image_uxaxrg.png",
+  tags: [
+    "C#",
+    "Unity",
+    "Multiplayer"
+  ],
+  page: [
+    {
+      type: "text",
+      title: "Island Kingdoms"
+    },
+    {
+      type: "text",
+      title: "Concept",
+      text: "\
+       Island Kingdoms is a multiplayer turn based strategy game where players must carefully place buildings on their\
+       island. They must prepare for natural disasters and attacks from other players. Strategic planning and awareness\
+       are key to success."
+    },
+    {
+      type: "text",
+      title: "Build",
+      text: "\
+       Progress is mainly made through building, to increase resource production, unlock technologies or work towards\
+       a victory condition using culture, military or building a wonder.\
+       The layout of buildings is crucial as space is limited and touching buildings are prone to diseases if not also\
+       adjacent to an hospital."
+    },
+    {
+      type: "image",
+      src: "cloudinary/island_kingdoms/build_island_q6blre.png"
+    },
+    {
+      type: "text",
+      title: "Harvest",
+      text: "\
+       Some buildings are home to a citizen that eats one food per turn but also provides a dice that produces random\
+       resources. Sometimes, skulls are rolled and depending on the number of skulls a certain disaster occurs."
+    },
+    {
+      type: "image",
+      src: "cloudinary/island_kingdoms/dices_c74hed.png"
+    },
+    {
+      type: "text",
+      title: "Attack",
+      text: "\
+       Units and ships can be used to send attacks to other islands. Buildings can be pillaged and destroyed. Even\
+       strategically targeting a few farms at the right moment can result in multiple turns of starvation."
+    },
+    {
+      type: "image",
+      src: "cloudinary/island_kingdoms/attack_ofbv7t.png"
+    }
+  ]
+}

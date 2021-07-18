@@ -5,7 +5,10 @@
   details: "\
     A project for the Operating System and Computer Networks course at ENS. The goal was to develop an operating\
     system from scratch.",
-  tags: ["C", "Assembly"],
+  tags: [
+    "C",
+    "Assembly"
+  ],
   page: [
     {
       type: "text",

@@ -12,7 +12,8 @@ const BADGES_COLORS = {
     "Minecraft": "orange",
     "TensorFlow": "orange",
     "PyTorch": "orange",
-    "AI": "lime",
+    "AI": "purple",
+    "Multiplayer": "purple",
     "wip": "red",
 }
 
