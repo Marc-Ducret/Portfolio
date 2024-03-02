@@ -4,9 +4,6 @@
     text: "\
       <div class='row header' style='width:100%; display: flex; align-items: center; margin: 0;'>\
         <div class='header-background'><div class='shadow'></div></div>\
-        <a href='?content=text_page&page=resume' class='col s4'>\
-          <img class='activator' src='https://res.cloudinary.com/marc-ducret-io/image/upload/w_auto,q_auto,f_auto/v1619825778/home/photo-003_mwywe1' style='width:100%'/>\
-        </a>\
         <div class='col s8' style='vertical-align: middle'>\
           <p style='font-size: 1.4rem; text-align: left'>\
             I am a software engineer passionate about the creative and technical challenges of\
@@ -25,7 +22,7 @@
       <br/>\
       <div class='row' style='width:100%'>\
         <div class='col s6 l4 project-card' href='?content=project&project=little_blocks_mod' image='cloudinary/home/showcase/mod_auatdf.png' name='Popular Mod' badges='Java OpenGL'/></div>\
-        <div class='col s6 l4 project-card' href='?content=project&project=island_kingdoms' image='cloudinary/home/showcase/release_x0iupg.png' name='Releases Soon' badges='C# Unity wip'></div>\
+        <div class='col s6 l4 project-card' href='?content=project&project=dice_kingdoms' image='cloudinary/home/showcase/xkv92nqard4qcqwchmj7.png' name='Released on Steam' badges='C# Unity Steam'></div>\
         <div class='col s6 l4 project-card' href='?content=project&project=original_fps' image='cloudinary/home/showcase/fps_t3dmbe.png' name='Multiplayer FPS' badges='C# Unity wip'></div>\
       </div>"
   },

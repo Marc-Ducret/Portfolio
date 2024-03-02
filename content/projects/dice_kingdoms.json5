@@ -1,7 +1,7 @@
 {
-  id: "island_kingdoms",
-  name: "Island Kingdoms",
-  image: "cloudinary/island_kingdoms/card_image_uxaxrg.png",
+  id: "dice_kingdoms",
+  name: "Dice Kingdoms",
+  image: "cloudinary/dice_kingdoms/gmi2woe5gronlpmgu2m4.png",
   tags: [
     "C#",
     "Unity",
@@ -10,15 +10,28 @@
   page: [
     {
       type: "text",
-      title: "Island Kingdoms"
+      title: "Dice Kingdoms"
     },
     {
       type: "text",
       title: "Concept",
       text: "\
-       Island Kingdoms is a multiplayer turn based strategy game where players must carefully place buildings on their\
+       Dice Kingdoms is a multiplayer turn based strategy game where players must carefully place buildings on their\
        island. They must prepare for natural disasters and attacks from other players. Strategic planning and awareness\
-       are key to success."
+       are key to success.\
+      "
+    },
+    {
+      type: "text",
+      text: "\
+       <center class='py-8 overflow-hidden'>\
+       <iframe src='https://store.steampowered.com/widget/1501690/' frameBorder='0' width='646' height='190' />\
+       </center>\
+      "
+    },
+    {
+      type: "image",
+      src: "cloudinary/dice_kingdoms/yppm9du8w4e2s3eyfcwt.png"
     },
     {
       type: "text",
@@ -31,7 +44,7 @@
     },
     {
       type: "image",
-      src: "cloudinary/island_kingdoms/build_island_q6blre.png"
+      src: "cloudinary/dice_kingdoms/vtao0l29ysrp54fj5utt.png"
     },
     {
       type: "text",
@@ -42,7 +55,7 @@
     },
     {
       type: "image",
-      src: "cloudinary/island_kingdoms/dices_c74hed.png"
+      src: "cloudinary/dice_kingdoms/qvdpyjebx5wlivdklkvm.png"
     },
     {
       type: "text",
@@ -53,7 +66,11 @@
     },
     {
       type: "image",
-      src: "cloudinary/island_kingdoms/attack_ofbv7t.png"
+      src: "cloudinary/dice_kingdoms/dnhry4beqnrqsgrjwn2z.png"
+    },
+    {
+      type: "image",
+      src: "cloudinary/dice_kingdoms/avlwwbjvahxoqkoadnvo.png"
     }
   ]
 }
